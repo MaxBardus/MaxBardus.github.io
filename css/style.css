@@ -1,0 +1,347 @@
+/* ========================= GENERAL TAGS ======================== */
+
+
+body, html{ 
+    height:100%;
+    margin:0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+/* ========================= Layout ======================== */
+.mobile-logo {
+    position: absolute;
+    margin: 0; 
+    left: 70px;
+    top: 43px;
+    z-index: 26000;
+}
+.mobile-title a {
+    text-decoration: none;
+    color: #222;
+    font-size: 1.5em;
+}
+.mobile-nav {
+    /* border-bottom: 1px solid #EAEAEB; */
+    text-align: right;
+    height: 125px;
+    line-height: 125px;
+}
+.menu {
+    margin: 0 70px 0 0;
+    
+}
+.menu a {
+    clear: right;
+    text-decoration: none;
+    font-weight: 400;
+    color: #AAA;
+    margin: 0 10px;
+    line-height: 70px;
+    font-size: 0.875em;
+    letter-spacing: 0.2px;
+}
+label {
+    margin: 0 30px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+
+#toggle {
+    display: none;
+}
+
+.project-container {
+    position: relative;
+    text-align: center;
+}
+.project-img {
+    display: block;
+    width: 100%;
+    height: 425px;
+   
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 425px;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: white;
+  
+}
+
+
+.project-container:hover .overlay {
+    opacity: 1;
+}
+
+
+.project-title {
+  color: #222;
+  font-size: 2.5em;
+  position: absolute;
+  top: 50%;
+  left: 50%;t
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.project-category {
+    color: #AAA;
+  font-size: 0.8em;
+  font-weight: 300;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 59%;
+  left: 50%;t
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+footer {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.logo-container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 145px;
+    margin-bottom: -23px;
+}
+.nav-link {
+    margin-right: 25px;
+}
+.footer-link {
+    color: #AAA;
+}
+
+.f-networks {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 70px;
+}
+.f-network-box {
+    margin-right: 25px;
+}
+
+.f-sn-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.copyright-text {
+    font-weight: 300;
+    line-height: 17px;
+}
+
+.intro-section {
+    height: 25vh;
+}
+.intro-text {
+    margin-top: 90px;
+    font-weight: 400;
+    font-size: 2.1em;
+}
+.profile-container {
+    text-align: center;
+}
+.profile-img {
+    width: 40%;
+    height: 40%;
+}
+
+/* .skill-set {
+
+} */
+
+.skills-title {
+    font-weight: 600;
+    margin-bottom: 25px;
+    letter-spacing: 0.8px;
+}
+.skills-list li {
+  list-style-type: none;
+  margin-bottom: 12px;
+}
+.bio {
+    letter-spacing: 0.5px;
+    line-height: 30px;
+}
+.ui-mockup {
+    text-align: center;
+}
+.ui-img {
+    width: 100%;
+    height: 100%;
+}
+.project-description-text {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: 600;
+    color: #333;
+    opacity: 0.9;
+    font-size: 2.2em;
+    margin-top: 14vw;
+    margin-bottom: 14vw;
+    max-width: 50vw;
+}
+
+.project-showcase {
+    margin-top: 14vw;
+    margin-bottom: 14vw;
+}
+
+.side-description {
+    text-align: center;
+    padding-top: 40%;
+    
+}
+.project-detail {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 1.2em;
+    color: #AAA;
+    letter-spacing: 0.7px;
+}
+.project-side-description-text {
+    font-size: 2.2em;
+    font-weight: 600;
+    color: #333;
+    opacity: 0.9;
+}
+
+.project-mockup-container {
+    text-align: center;
+  
+}
+.project-mockup {
+    width: 60%;
+    height: 60%;
+}
+
+
+/* ========================= Media Queries ======================== */
+
+
+@media only screen and (max-width: 500px) {
+    label {
+        display: block;
+        cursor: pointer;
+        position: relative;
+        z-index: 25001;
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+        position: relative;
+        z-index: 25000;
+        background-color: white;
+    }
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+    }
+    #toggle:checked + .menu {
+        display: block;
+        outline: none;
+     
+    }
+    .mobile-logo {
+        left: 30px;
+        top: 17px;
+    }
+    .mobile-logo a {
+        font-size: 1.4em;
+    }
+    .project-container{
+        margin-bottom: 25px;
+    }
+    .project-img {
+        width: 100%;
+        height: 100%;
+    }
+    .overlay {
+        width: 100%;
+        height: 100%;
+    }
+    .project-title {
+        font-size: 1.5em;
+    }
+    .project-category {
+        top: 65%;
+        font-size: 0.7em;
+    }
+    .footer-nav {
+        margin-left: 0;
+        text-align: center;
+        justify-content: center;
+        margin-left: 25px;
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+    .f-networks {
+        justify-content: center;
+        margin-right: 0;
+        margin-top: 25px;
+        text-align: center;
+    }
+    .f-network-box {
+       margin-left: 25px;
+       margin-bottom: 15px;
+    }
+    .project-description-text {
+        max-width: 100%;
+        font-size: 1.2em;
+    }
+    .project-side-description-text {
+        font-size: 1.2em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
