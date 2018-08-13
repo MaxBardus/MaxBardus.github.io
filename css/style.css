@@ -191,10 +191,12 @@ footer {
     font-weight: 600;
     margin-bottom: 25px;
     letter-spacing: 0.8px;
+    font-size: 1.1em;
 }
 .skills-list li {
   list-style-type: none;
   margin-bottom: 12px;
+  letter-spacing: 0.2px;
 }
 .bio {
     letter-spacing: 0.5px;
@@ -207,22 +209,12 @@ footer {
     width: 100%;
     height: 100%;
 }
-.project-description-text {
-    text-align: center;
-    margin-right: auto;
-    margin-left: auto;
-    font-weight: 600;
-    color: #333;
-    opacity: 0.9;
-    font-size: 2.2em;
-    margin-top: 14vw;
-    margin-bottom: 14vw;
-    max-width: 50vw;
-}
+
 
 .project-showcase {
-    margin-top: 14vw;
-    margin-bottom: 14vw;
+    margin-top: 8vw;
+    margin-bottom: 10vw;
+    text-align: center;
 }
 
 .side-description {
@@ -237,12 +229,7 @@ footer {
     color: #AAA;
     letter-spacing: 0.7px;
 }
-.project-side-description-text {
-    font-size: 2.2em;
-    font-weight: 600;
-    color: #333;
-    opacity: 0.9;
-}
+
 
 .project-mockup-container {
     text-align: center;
@@ -251,6 +238,50 @@ footer {
 .project-mockup {
     width: 60%;
     height: 60%;
+}
+
+.gv-title {
+    font-weight: 600;
+    color: #009688;
+    margin-bottom: 10px;
+    font-size: 4em;
+}
+.novo-title {
+    font-weight: 600;
+    color: #FF5722;
+    margin-bottom: 10px;
+    font-size: 4em;
+}
+.project-type {
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #9B9B9B;
+}
+.project-description {
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 1.3em;
+    color: #222;
+    width: 90%;
+}
+
+.section-one {
+    padding-top: 8rem;
+
+}
+
+.mobile-app-description p {
+    font-size: 1.3em;
+    
+}
+
+.showcase-img img {
+    width: 100%;
+    height: 100%;
+}
+.showcase-name {
+
+    color: #546E7A;
 }
 
 
@@ -325,13 +356,18 @@ footer {
        margin-left: 25px;
        margin-bottom: 15px;
     }
-    .project-description-text {
-        max-width: 100%;
-        font-size: 1.2em;
+
+    .gv-title {
+        font-size: 3em;
     }
-    .project-side-description-text {
-        font-size: 1.2em;
+    .project-description {
+        width: 100%;
+        
     }
+    .showcase-img {
+        margin-top: 45px;
+    }
+    
 }
 
 
