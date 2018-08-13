@@ -1,70 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-  <!-- Basic Page Needs
+    <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>Max Bardus - Liairson</title>
-  <meta name="description" content="My Personal Portfolio website showcasing my work for UI/UX design and front-end development">
-  <meta name="author" content="Maksym Bardus">
+    <meta charset="utf-8">
+    <title>Max Bardus - Liairson</title>
+    <meta name="description" content="My Personal Portfolio website showcasing my work for UI/UX design and front-end development">
+    <meta name="author" content="Maksym Bardus">
 
-  <!-- Mobile Specific Metas
+    <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- FONT
+    <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600" rel="stylesheet">
-  <!-- CSS
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600" rel="stylesheet">
+    <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/style.css">
 
-  <!-- Favicon
+    <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="icon" type="image/png" href="images/favicon.png">
 
 </head>
+
 <body>
     <div class="mobile-logo">
         <div class="mobile-title">
-          <a href="#">Max Bardus</a>
+            <a href="#">Max Bardus</a>
         </div>
     </div>
 
     <div class="mobile-nav">
         <label for="toggle">&#9776</label>
-        <input type="checkbox" id="toggle"/>
+        <input type="checkbox" id="toggle" />
         <div class="menu">
-          <a href="#" style="color: #222">Portfolio</a>
-          <a href="#">About Me</a>
-          <a href="#">Contact</a>
+            <a href="#" style="color: #222">Portfolio</a>
+            <a href="#">About Me</a>
+            <a href="#">Contact</a>
         </div>
-    </div> 
+    </div>
+
 
     <div class="container" style="max-width: 90%;">
-        <div class="ui-mockup">
-            <img class="ui-img" src="images/Liairson.png" alt="Liairson Concept">
+        <div class="row" style="padding-top: 5rem; padding-bottom: 3rem;">
+            <div class="five columns">
+                <div class="projec-title">
+                    <h4 class="liairson-title">La Liairson</h4>
+                    <p class="project-type">UI Concept</p>
+                </div>
+            </div>
+            <div class="seven columns">
+                <div class="project-description">
+                    La Liairson is a premium boutique app concept based on the second generation of Material Design. While Material was always
+                    playful design guideline, this concept shows that it can be used to create an expansive look for software.
+                </div>
+            </div>
         </div>
         <div class="ui-mockup">
-            <img class="ui-img" src="images/Getting Started.png" alt="Liairson Concept">
+            <img class="ui-img" src="images/liairsonmockup.png" alt="La Liairson Demo">
         </div>
-        <div class="ui-mockup">
-            <img class="ui-img" src="images/Feed.png" alt="Liairson Concept">
-        </div>
-        <div class="ui-mockup">
-            <img class="ui-img" src="images/End.png" alt="Liairson Concept">
-        </div>
+    </div>
 
-        <div class="container" style="max-width: 80%;">
+    <section class="section-one">
+        <div class="container" style="max-width: 90%;">
+            <div class="row">
+                <div class="six columns">
+                    <div class="mobile-app-description">
+                        <p>Design combines the simplicity of white color with passion vibe of Amber. There is also a nice contrast
+                            between rounded corners of the logo and sharp conners of the buttons</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="project-showcase">
+        <div class="container" style="max-width: 90%;">
+            <div class="row">
+                <div class="four columns" style="text-align: left;">
+                    <div class="showcase-img">
+                        <img src="images/llstart.png" alt="Getting Started Screen">
+                    </div>
+                    <span class="showcase-name">Getting Started</span>
+                </div>
+                <div class="four columns" style="text-align: left;">
+                    <div class="showcase-img">
+                        <img src="images/llsignup.png" alt="Sign Up Screen">
+                    </div>
+                    <span class="showcase-name">Sign Up</span>
+                </div>
+                <div class="four columns" style="text-align: left;">
+                    <div class="showcase-img">
+                        <img src="images/llwelcome.png" alt="Welcome Screen">
+                    </div>
+                    <span class="showcase-name">Welcome</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-two">
+        <div class="container" style="max-width: 90%;">
+            <div class="row">
+                <div class="six columns">
+                    <div class="mobile-app-description">
+                        <p>The app has simple and straightforward navigation to complete the product purhase. Half of the interactions
+                            are based on gestures which gives natural feel to the user flow</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="project-showcase">
+        <div class="container" style="max-width: 90%;">
+            <div class="row">
+                <div class="four columns" style="text-align: left;">
+                    <div class="showcase-img">
+                        <img src="images/lllist.png" alt="Store Screen">
+                    </div>
+                    <span class="showcase-name">Store</span>
+                </div>
+                <div class="four columns" style="text-align: left;">
+                    <div class="showcase-img">
+                        <img src="images/llitem.png" alt="Item Screen">
+                    </div>
+                    <span class="showcase-name">Product</span>
+                </div>
+                <div class="four columns" style="text-align: left;">
+                    <div class="showcase-img">
+                        <img src="images/llcheckout.png" alt="Checkout Screen">
+                    </div>
+                    <span class="showcase-name">Checkout</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section-two">
+        <div class="container" style="max-width: 90%;">
+            <div class="row">
+                <div class="six columns">
+                    <div class="mobile-app-description">
+                        <p>While new Material Design doesn't rely on card design anymore, some best practices are inherited
+                            and refreshed. That brings depth and order to the interface making it easy to interact with.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="project-showcase">
+        <div class="container" style="max-width: 90%;">
+            <div class="row">
+                <div class="four columns" style="text-align: left;">
+                    <div class="showcase-img">
+                        <img src="images/llprofile.png" alt="Profile">
+                    </div>
+                    <span class="showcase-name">Profile</span>
+                </div>
+                <div class="four columns" style="text-align: left;">
+                    <div class="showcase-img">
+                        <img src="images/llmenu.png" alt="Menu">
+                    </div>
+                    <span class="showcase-name">Menu</span>
+                </div>
+                <div class="four columns" style="text-align: left;">
+                    <div class="showcase-img">
+                        <img src="images/llsettings.png" alt="Settings Screen">
+                    </div>
+                    <span class="showcase-name">Settings</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="container" style="max-width: 90%;">
             <div class="row">
                 <div class="four columns">
                     <div class="skill-set">
                         <div class="skills-title">Information</div>
                         <ul class="skills-list">
-                            <li>Behance Link: <a href="https://www.behance.net/gallery/68049287/La-Liairson-boutique-UI-design-concept" target="_blank">La Liairson</a></li>
+                            <li>Behance Link: <a href="https://www.behance.net/gallery/68049287/La-Liairson-boutique-UI-design-concept" target="_blank">Liairson</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -73,47 +201,47 @@
             </div>
         </div>
 
-        <footer>
-            <div class="logo-container">
-                <img class="logo-icon" src="images/favicon.png" alt="Logo">
+    <footer>
+        <div class="logo-container">
+            <img class="logo-icon" src="images/favicon.png" alt="Logo">
+        </div>
+
+        <div class="footer-nav">
+            <div class="nav-link">
+                <a href="#" class="footer-link" style="color: #222">Portfolio</a>
             </div>
-    
-            <div class="footer-nav">
-                <div class="nav-link">
-                    <a href="#" class="footer-link" style="color: #222">Portfolio</a>
-                </div>
-                <div class="nav-link">
-                    <a href="about.html" class="footer-link">About Me</a>
-                </div>
-                <div class="nav-link">
-                    <a href="about.html" class="footer-link">Contact</a>
-                </div>
+            <div class="nav-link">
+                <a href="about.html" class="footer-link">About Me</a>
             </div>
-            <div class="f-networks">
-                <div class="f-network-box">
-                    <a href="https://www.linkedin.com/in/maxbardus/" target="_blank">
-                        <img src="images/linkedin.svg" class="f-sn-icon" alt="linkedin">
-                    </a>
-                </div>
-                <div class="f-network-box">
-                    <a href="https://www.instagram.com/max_bardus/" target="_blank">
-                        <img src="images/instagram.svg" class="f-sn-icon" alt="Instagram">
-                    </a>
-                </div>
-                <div class="f-network-box">
-                    <a href="https://www.behance.net/maxhitech58b2" target="_blank">
-                        <img src="images/behance.svg" class="f-sn-icon" alt="Behance">
-                    </a>
-                </div>
-                <div class="f-network-box">
-                    <a href="https://github.com/MaxBardus" target="_blank">
-                        <img src="images/github.svg" class="f-sn-icon" alt="github">
-                    </a>
-                </div>
-                <div class="f-network-box">
-                    <div class="copyright-text">Copyright © 2018</div>
-                </div>
+            <div class="nav-link">
+                <a href="about.html" class="footer-link">Contact</a>
             </div>
-    
-        </footer>
+        </div>
+        <div class="f-networks">
+            <div class="f-network-box">
+                <a href="https://www.linkedin.com/in/maxbardus/" target="_blank">
+                    <img src="images/linkedin.svg" class="f-sn-icon" alt="linkedin">
+                </a>
+            </div>
+            <div class="f-network-box">
+                <a href="https://www.instagram.com/max_bardus/" target="_blank">
+                    <img src="images/instagram.svg" class="f-sn-icon" alt="Instagram">
+                </a>
+            </div>
+            <div class="f-network-box">
+                <a href="https://www.behance.net/maxhitech58b2" target="_blank">
+                    <img src="images/behance.svg" class="f-sn-icon" alt="Behance">
+                </a>
+            </div>
+            <div class="f-network-box">
+                <a href="https://github.com/MaxBardus" target="_blank">
+                    <img src="images/github.svg" class="f-sn-icon" alt="github">
+                </a>
+            </div>
+            <div class="f-network-box">
+                <div class="copyright-text">Copyright © 2018</div>
+            </div>
+        </div>
+
+    </footer>
 </body>
