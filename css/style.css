@@ -259,7 +259,12 @@ footer {
     margin-bottom: 10px;
     font-size: 4em;
 }
-
+.dnv-title {
+    font-weight: 600;
+    color:#1976D2;
+    margin-bottom: 10px;
+    font-size: 4em;
+}
 .project-type {
     font-size: 1.2em;
     font-weight: 400;
