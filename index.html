@@ -21,6 +21,7 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -74,7 +75,7 @@
     <div class="container" style="max-width: 90%;">
       <div class="row">
           <div class="six columns">
-            <div class="project-container">
+            <div class="project-container" data-aos="fade-right">
             <img src="images/novomockup.jpg" class="project-img" alt="Futon App">
             <a href="novo.html">
             <div class="overlay">
@@ -94,7 +95,7 @@
             </div>
           </div>
           <div class="six columns">
-              <div class="project-container">
+              <div class="project-container" data-aos="fade-left">
                   <img src="images/gvwelcome.jpg" class="project-img" alt="Green Vision">
                   <a href="greenvision.html">
                   <div class="overlay">
@@ -110,7 +111,7 @@
 
       <div class="row">
           <div class="six columns">
-            <div class="project-container">
+            <div class="project-container" data-aos="fade-up" data-aos-delay="600">
             <img src="images/futon.jpg" class="project-img" alt="Futon">
             <a href="futon.html">
             <div class="overlay">
@@ -121,7 +122,7 @@
             </div>
           </div>
           <div class="six columns">
-              <div class="project-container">
+              <div class="project-container" data-aos="fade-up" data-aos-delay="600">
                   <img src="images/dnvmockup.png" class="project-img" alt="D&amp;V Group">
                   <a href="dnv.html">
                   <div class="overlay">
@@ -136,7 +137,7 @@
       <br>
       <div class="row">
           <div class="six columns">
-            <div class="project-container">
+            <div class="project-container" data-aos="fade-up">
             <img src="images/liairsonmockup.png" class="project-img" alt="Metis">
             <a href="liairson.html">
             <div class="overlay">
@@ -147,7 +148,7 @@
             </div>
           </div>
           <div class="six columns">
-              <div class="project-container">
+              <div class="project-container" data-aos="fade-up">
 
             <img src="images/metis.png" class="project-img" alt="Metis">
             <a href="metis.html">
@@ -174,7 +175,7 @@
             <a href="about.html" class="footer-link">About Me</a>
           </div>
           <div class="nav-link">
-            <a href="about.html" class="footer-link">Contact</a>
+            <a href="about.html" class="footer-link">Moodboard</a>
           </div>
         </div>
         <div class="f-networks">
@@ -198,6 +199,17 @@
       </footer>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+  <script type="text/javascript" src="js/aos.js"></script>
+  <script>
+    AOS.init(
+        {
+          duration: 1000,
+        }
+      );
+  </script>
+
 </body>
 </html>
 

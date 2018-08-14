@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -42,11 +43,11 @@
         <div class="menu">
             <a href="index.html">Portfolio</a>
             <a href="about.html" style="color: #222">About Me</a>
-            <a href="#">Contact</a>
+            <a href="#">Moodboard</a>
         </div>
     </div>
     <div class="container" style="max-width: 80%">
-        <div class="intro-section">
+        <div class="intro-section" data-aos="fade-right" data-aos-delay="700">
             <div class="intro-text">
                 Perfection comes in small details
                 <br>we often don't see
@@ -54,7 +55,7 @@
         </div>
     </div>
     <div class="container" style="max-width: 80%;">
-        <div class="profile-container">
+        <div class="profile-container" data-aos="fade-up">
             <img src="images/maxbardus.jpeg" class="profile-img" alt="My Avatar">
         </div>
     </div>
@@ -65,7 +66,7 @@
     <div class="container" style="max-width: 80%;">
         <div class="row">
             <div class="four columns">
-                <div class="skill-set">
+                <div class="skill-set" data-aos="fade-right">
                     <div class="skills-title">Skills In:</div>
                     <ul class="skills-list">
                         <li>UI/UX Design</li>
@@ -74,7 +75,7 @@
                         <li>+ more</li>
                     </ul>
                 </div>
-                <div class="skill-set">
+                <div class="skill-set" data-aos="fade-right">
                     <div class="skills-title">Contact</div>
                     <ul class="skills-list">
                         <li>maksymbardus@gmail.com</li>
@@ -110,7 +111,7 @@
                 <a href="about.html" class="footer-link">About Me</a>
             </div>
             <div class="nav-link">
-                <a href="about.html" class="footer-link">Contact</a>
+                <a href="about.html" class="footer-link">Moodboard</a>
             </div>
         </div>
         <div class="f-networks">
@@ -140,4 +141,16 @@
         </div>
 
     </footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/aos.js"></script>
+    <script>
+      AOS.init(
+          {
+            duration: 1000,
+          }
+        );
+        </script>
+
 </body>
+</html>
