@@ -277,6 +277,13 @@ footer {
     margin-bottom: 10px;
     font-size: 4em;
 }
+
+.logo-title {
+    font-weight: 400;
+    font-size: 2.5em;
+    color: #222;
+}
+
 .project-type {
     font-size: 1.2em;
     font-weight: 400;
@@ -307,6 +314,15 @@ footer {
 .showcase-name {
 
     color: #546E7A;
+}
+
+.logo-container {
+    text-align: center;
+}
+
+.logo-showcase {
+    width: 100%;
+    height: 100%;
 }
 
 
