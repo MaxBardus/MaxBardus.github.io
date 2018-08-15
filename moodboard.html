@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton.css">
     <link rel="stylesheet" href="css/style.css">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="icon" type="image/png" href="images/favicon.png">
@@ -49,12 +49,12 @@
     <div class="container" style="max-width: 90%;">
         <div class="row" style="padding-top: 2.5rem; padding-bottom: 3rem;">
             <div class="five columns">
-                <div class="projec-title">
+                <div class="projec-title" data-aos="zoom-in">
                     <h4 class="logo-title">Logos</h4>
                 </div>
             </div>
         </div>
-        <div class="row" style="text-align: center;">
+        <div class="row" style="text-align: center;" data-aos="fade-left">
             <div class="three columns">
                 <div class="logo-container">
                     <img class="logo-showcase" src="images/maxlogo.png" alt="Profile">
@@ -79,7 +79,7 @@
         <br>
         <br>
         <br>
-        <div class="row" style="text-align: center;">
+        <div class="row" style="text-align: center;" data-aos="fade-right">
             <div class="three columns">
                 <div class="logo-container">
                     <img class="logo-showcase" src="images/liairsonlogo.png" alt="Liairson">
@@ -104,12 +104,12 @@
 
         <div class="row" style="padding-top: 5rem; padding-bottom: 3rem;">
             <div class="five columns">
-                <div class="projec-title">
+                <div class="projec-title" data-aos="zoom-in">
                     <h4 class="logo-title">Other UI Mockups</h4>
                 </div>
             </div>
         </div>
-        <div class="row" style="text-align: center;">
+        <div class="row" style="text-align: center;" data-aos="fade">
             <div class="five columns">
                 <div class="logo-container">
                     <img class="logo-showcase" src="images/vortexshowcase.png" alt="Vortex IOS App">
@@ -171,7 +171,16 @@
     </footer>
 
 
-
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/aos.js"></script>
+    <script>
+      AOS.init(
+          {
+            duration: 1000,
+          }
+        );
+    </script>
 
 
 </body>
