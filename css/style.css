@@ -412,7 +412,14 @@ footer {
 }
 
 
-
+@media screen and (min-width: 1920px) {
+    .project-img {
+       
+        width: 100%;
+        height: auto;
+       
+    }
+}
 
 
 
