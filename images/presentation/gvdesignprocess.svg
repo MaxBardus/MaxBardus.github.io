@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1375.668 259.236">
+  <defs>
+    <style>
+      .cls-1, .cls-10 {
+        fill: none;
+        stroke-linecap: round;
+      }
+
+      .cls-1 {
+        stroke: #707070;
+        stroke-dasharray: 10;
+      }
+
+      .cls-2 {
+        fill: #ff7141;
+      }
+
+      .cls-3, .cls-7 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        font-size: 15px;
+      }
+
+      .cls-11, .cls-3, .cls-7 {
+        font-family: OpenSans-Bold, Open Sans;
+        font-weight: 700;
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        fill: #4dea13;
+      }
+
+      .cls-5 {
+        fill: #1191e2;
+      }
+
+      .cls-6 {
+        fill: #ce5a79;
+      }
+
+      .cls-7 {
+        font-size: 11px;
+      }
+
+      .cls-8 {
+        fill: #9941ff;
+      }
+
+      .cls-9 {
+        fill: #f04d37;
+      }
+
+      .cls-10 {
+        stroke: #bcbcbc;
+        stroke-dasharray: 5;
+      }
+
+      .cls-11 {
+        fill: #4b4b4b;
+        font-size: 22px;
+      }
+
+      .cls-12 {
+        filter: url(#Path_1);
+      }
+
+      .cls-13 {
+        filter: url(#Rectangle_196-4);
+      }
+
+      .cls-14 {
+        filter: url(#Rectangle_196-3);
+      }
+
+      .cls-15 {
+        filter: url(#Rectangle_196-2);
+      }
+
+      .cls-16 {
+        filter: url(#Rectangle_196);
+      }
+    </style>
+    <filter id="Rectangle_196" x="0" y="75" width="275.394" height="120.248" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#ff5b3e" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_196-2" x="275.068" y="75" width="275.394" height="120.248" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-2"/>
+      <feFlood flood-color="#4dea13" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_196-3" x="550.137" y="75" width="275.394" height="120.248" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-3"/>
+      <feFlood flood-color="#1191e2" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_196-4" x="825.205" y="75" width="275.394" height="120.248" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-4"/>
+      <feFlood flood-color="#9941ff" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_1" x="1100.274" y="75" width="275.394" height="120.248" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-5"/>
+      <feFlood flood-color="#f04d37" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_4" data-name="Group 4" transform="translate(-110.684 -170)">
+    <g id="Group_1" data-name="Group 1" transform="translate(138.684 265)">
+      <path id="Path_2" data-name="Path 2" class="cls-1" d="M246.381,325.248s284.181,161.932,550.137,0" transform="translate(-138.684 -253)"/>
+      <g class="cls-16" transform="matrix(1, 0, 0, 1, -28, -95)">
+        <rect id="Rectangle_196-5" data-name="Rectangle 196" class="cls-2" width="215.394" height="60.248" rx="30.124" transform="translate(28 95)"/>
+      </g>
+      <text id="IDEATE_BRAINSTORM" data-name="IDEATE + BRAINSTORM" class="cls-3" transform="translate(107.636 36.124)"><tspan x="-83.706" y="0">IDEATE + BRAINSTORM</tspan></text>
+    </g>
+    <g id="Group_1-2" data-name="Group 1" transform="translate(413.753 265)">
+      <g class="cls-15" transform="matrix(1, 0, 0, 1, -303.07, -95)">
+        <rect id="Rectangle_196-6" data-name="Rectangle 196" class="cls-4" width="215.394" height="60.248" rx="30.124" transform="translate(303.07 95)"/>
+      </g>
+      <text id="DEFINE_GOAL" data-name="DEFINE GOAL" class="cls-3" transform="translate(107.636 36.124)"><tspan x="-49.28" y="0">DEFINE GOAL</tspan></text>
+    </g>
+    <g id="Group_1-3" data-name="Group 1" transform="translate(688.821 265)">
+      <g class="cls-14" transform="matrix(1, 0, 0, 1, -578.14, -95)">
+        <rect id="Rectangle_196-7" data-name="Rectangle 196" class="cls-5" width="215.394" height="60.248" rx="30.124" transform="translate(578.14 95)"/>
+      </g>
+      <text id="SKETCH" class="cls-3" transform="translate(107.636 36.124)"><tspan x="-28.033" y="0">SKETCH</tspan></text>
+    </g>
+    <g id="Group_3" data-name="Group 3" transform="translate(454.916 381.766)">
+      <rect id="Rectangle_196-8" data-name="Rectangle 196" class="cls-6" width="133.607" height="47.47" rx="23.735"/>
+      <text id="REPEAT" class="cls-7" transform="translate(66.717 27.852)"><tspan x="-19.849" y="0">REPEAT</tspan></text>
+    </g>
+    <g id="Group_1-4" data-name="Group 1" transform="translate(963.89 265)">
+      <g class="cls-13" transform="matrix(1, 0, 0, 1, -853.21, -95)">
+        <rect id="Rectangle_196-9" data-name="Rectangle 196" class="cls-8" width="215.394" height="60.248" rx="30.124" transform="translate(853.21 95)"/>
+      </g>
+      <text id="DESIGN_UI_PROTOTYPE" data-name="DESIGN UI + PROTOTYPE" class="cls-3" transform="translate(107.636 36.124)"><tspan x="-89.493" y="0">DESIGN UI + PROTOTYPE</tspan></text>
+    </g>
+    <g id="Group_2" data-name="Group 2" transform="translate(1238.958 265)">
+      <g class="cls-12" transform="matrix(1, 0, 0, 1, -1128.27, -95)">
+        <path id="Path_1-2" data-name="Path 1" class="cls-9" d="M30.124,0H185.27a30.124,30.124,0,0,1,0,60.248H30.124A30.124,30.124,0,0,1,30.124,0Z" transform="translate(1128.27 95)"/>
+      </g>
+      <text id="IMPLEMENT" class="cls-3" transform="translate(107.636 36.124)"><tspan x="-44.431" y="0">IMPLEMENT</tspan></text>
+    </g>
+    <line id="Line_1" data-name="Line 1" class="cls-10" x2="47" transform="translate(361.5 295.5)"/>
+    <line id="Line_2" data-name="Line 2" class="cls-10" x2="47" transform="translate(636.5 295.5)"/>
+    <line id="Line_3" data-name="Line 3" class="cls-10" x2="47" transform="translate(910.5 295.5)"/>
+    <line id="Line_4" data-name="Line 4" class="cls-10" x2="47" transform="translate(1186.5 295.5)"/>
+    <text id="DESIGN_PROCESS" data-name="DESIGN PROCESS" class="cls-11" transform="translate(797 194)"><tspan x="-92.02" y="0">DESIGN PROCESS</tspan></text>
+  </g>
+</svg>

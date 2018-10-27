@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1080px" height="650px" viewBox="0 0 1080 650" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Pixel Copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Pixel-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <text id="Aa" font-family="AvenirNext-Medium, Avenir Next" font-size="80" font-weight="400" letter-spacing="0.8888887" fill="#1883CF">
+            <tspan x="60" y="169">Aa</tspan>
+        </text>
+        <text id="AaBbCcDdEeFfGHhIiJj" font-family="AvenirNext-Medium, Avenir Next" font-size="30" font-weight="400" letter-spacing="0.333333313" fill="#000000">
+            <tspan x="60" y="254">AaBbCcDdEeFfGHhIiJj</tspan>
+        </text>
+        <text id="AaBbCcDdEeFfGHhIiJj-Copy" font-family="AvenirNext-Regular, Avenir Next" font-size="30" font-weight="normal" letter-spacing="0.333333313" fill="#000000">
+            <tspan x="60" y="358">AaBbCcDdEeFfGHhIiJj</tspan>
+        </text>
+        <g id="Group-4" transform="translate(600.000000, 188.000000)">
+            <text id="#1883CF" font-family="AvenirNext-Regular, Avenir Next" font-size="20" font-weight="normal" letter-spacing="0.222222194" fill="#000000">
+                <tspan x="0" y="110">#1883CF</tspan>
+            </text>
+            <g id="Group-3" transform="translate(0.000000, 158.000000)">
+                <text id="#24649D" font-family="AvenirNext-Regular, Avenir Next" font-size="20" font-weight="normal" letter-spacing="0.222222194" fill="#000000">
+                    <tspan x="0" y="107">#24649D</tspan>
+                </text>
+                <rect id="Rectangle-Copy-3" fill="#24649D" fill-rule="nonzero" x="0" y="0" width="78" height="78" rx="39"></rect>
+            </g>
+            <text id="#4A9687" font-family="AvenirNext-Regular, Avenir Next" font-size="20" font-weight="normal" letter-spacing="0.222222194" fill="#000000">
+                <tspan x="141" y="110">#4A9687</tspan>
+            </text>
+            <g id="Group-2" transform="translate(281.000000, 0.000000)">
+                <g id="Group">
+                    <text id="#DB4060" font-family="AvenirNext-Regular, Avenir Next" font-size="20" font-weight="normal" letter-spacing="0.222222194" fill="#000000">
+                        <tspan x="0" y="107">#DB4060</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-2" fill="#DB4060" fill-rule="nonzero" x="0" y="0" width="78" height="78" rx="39"></rect>
+                </g>
+            </g>
+            <rect id="Rectangle" fill="#1883CF" fill-rule="nonzero" x="0" y="3" width="78" height="78" rx="39"></rect>
+            <rect id="Rectangle-Copy" fill="#4A9687" fill-rule="nonzero" x="141" y="3" width="78" height="78" rx="39"></rect>
+        </g>
+        <text id="AaBbCcDdEeFfGHhIiJj-Copy-2" font-family="AvenirNext-UltraLight, Avenir Next" font-size="30" font-weight="200" letter-spacing="0.333333313" fill="#000000">
+            <tspan x="60" y="462">AaBbCcDdEeFfGHhIiJj</tspan>
+        </text>
+        <text id="Avenir-Next" font-family="Raleway-Medium, Raleway" font-size="30" font-weight="400" letter-spacing="0.3333333" fill="#000000">
+            <tspan x="199" y="156">Avenir Next</tspan>
+        </text>
+        <text id="Medium" font-family="AvenirNext-Medium, Avenir Next" font-size="24" font-weight="400" letter-spacing="0.266666591" fill="#000000">
+            <tspan x="60" y="291">Medium</tspan>
+        </text>
+        <text id="Regular" font-family="AvenirNext-Regular, Avenir Next" font-size="24" font-weight="normal" letter-spacing="0.266666591" fill="#000000">
+            <tspan x="60" y="395">Regular</tspan>
+        </text>
+        <text id="Light" font-family="AvenirNext-UltraLight, Avenir Next" font-size="24" font-weight="200" letter-spacing="0.266666591" fill="#000000">
+            <tspan x="60" y="499">Light</tspan>
+        </text>
+    </g>
+</svg>

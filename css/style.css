@@ -1,72 +1,121 @@
+/* ========================= FONTS ======================== */
+
+/* @font-face {
+    font-family: "Articulat";
+    src: url(../fonts/articulat-light.ttf);
+    font-weight: 300;
+} */
+  @font-face {
+     font-family: "Articulat";
+    src: url(../fonts/articulat-regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Articulat";
+    src: url(../fonts/articulat-medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Articulat";
+    src: url(../fonts/articulat-demibold.ttf);
+    font-weight: 600;
+} 
+
+
 /* ========================= GENERAL TAGS ======================== */
+html, body {
+    font-family: "Articulat", sans-serif;
+    font-weight: 500;
+}
 
 
-body, html{ 
-    height:100%;
-    margin:0;
-    padding: 0;
-    font-size: 16px;
-    font-family: 'Poppins', sans-serif;
-}
-a {
-    text-decoration: none;
-}
 
 /* ========================= Layout ======================== */
-.mobile-logo {
-    position: absolute;
-    margin: 0; 
-    left: 70px;
-    top: 43px;
-    z-index: 26000;
+.custom-container {
+    width: 90%;
+    margin: 0 auto;
 }
-.mobile-title a {
-    text-decoration: none;
-    color: #222;
-    font-size: 1.5em;
+.banner {
+    background-color: #000000;
+    height: 55vh;
+    border-radius: 1px;
+    opacity: 1;
 }
-.mobile-nav {
-    /* border-bottom: 1px solid #EAEAEB; */
-    text-align: right;
-    height: 125px;
-    line-height: 125px;
-}
-.menu {
-    margin: 0 70px 0 0;
+
+.intro-block {
+    /* color: #a4a4a4; */
+    color: #9A9A9A;
+    padding-top: 80px;
+    padding-bottom: 50px;
     
 }
-.menu a {
-    clear: right;
-    text-decoration: none;
-    font-weight: 400;
-    color: #AAA;
-    margin: 0 10px;
-    line-height: 70px;
-    font-size: 0.875em;
+.intro-title {
+    font-size: 2rem;
+    line-height: 43px;
     letter-spacing: 0.2px;
+    font-weight: 500;
 }
-label {
-    margin: 0 30px 0 0;
-    font-size: 26px;
-    line-height: 70px;
-    display: none;
-    width: 26px;
-    float: right;
+.networks-list {
+    padding-left: 0;
 }
-
-#toggle {
-    display: none;
+.networks-list li {
+    display: inline;
+    margin-right: 20px;
 }
 
+.header-network {
+    width: 27px;
+    height: 27px;
+
+}
+.resume {
+    width: 28px;
+    height: 28px;
+}
+
+.project-showcase {
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #383838, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #383838, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    min-height: 30vh;
+    border-radius: 1px;
+    opacity: 1;
+}
+
+.showcase-block {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+small {
+    font-size: 1em;
+    opacity: 0.8;
+    
+}
+.sproject-title {
+    margin-top: 5px;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+.rego-img {
+    width: 65%;
+    height: 65%;
+}
+.sproject-role, .sproject-client {
+    display: none
+}
 .project-container {
     position: relative;
     text-align: center;
+    margin-bottom: 45px;
 }
+
 .project-img {
-    display: block;
     width: 100%;
-    height: 425px;
-   
+    height: 100%;
 }
 .overlay {
     position: absolute;
@@ -74,365 +123,355 @@ label {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 425px;
+    height: 100%;
     width: 100%;
     opacity: 0;
     transition: .5s ease;
     background-color: white;
   
 }
-
+.concept-overlay {
+    background-color: #181818;
+}
 
 .project-container:hover .overlay {
     opacity: 1;
 }
-
-
 .project-title {
-  color: #222;
-  font-size: 2.5em;
-  position: absolute;
-  top: 50%;
-  left: 50%;t
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
+    color: #222;
+    font-size: 2.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;t
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .concept-title {
+    color: white;
 }
-
-.project-category {
+  .project-category {
     color: #AAA;
   font-size: 0.8em;
-  font-weight: 300;
+  font-weight: 500;
   letter-spacing: 0.4px;
   text-transform: uppercase;
   position: absolute;
   top: 59%;
-  left: 50%;t
+  left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
 }
 
+/* Project Pages */
 
-footer {
-    padding-top: 3rem;
+.project-name {
+    padding-top: 50px;
+    padding-bottom: 75px;
+}
+.project-name h3 {
+    font-size: 4em;
+    font-weight: 600;
+    margin-bottom: 10px;
+    opacity: 0.8;
+ /*    color: #FF5722; */
+}
+.project-name p {
+    font-size: 1.5em;
+    letter-spacing: 0.2px;
+    color: rgba(93,93,93,0.7);
+}
+
+.novobanner-img {
+    width: 100%;
+    height: 350px;
+    background: url(../images/presentation/novobanner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.gvbanner-img {
+    width: 100%;
+    height: 350px;
+    background: url(../images/presentation/gvbanner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.project-introduction {
+    padding-top: 5.5rem;
+    padding-bottom: 4rem;
+    /* font-family: "Open Sans", sans-serif; */
+   
+}
+
+.projectsum h3 {
+    font-weight: 600;
+    font-size: 2.2rem;
+    color: #000000;
+ 
+}
+
+.slogan {
+    margin-top: 50px;
+    font-size: 2rem;
+    line-height: 30px;
+}
+
+.text-block {
+    margin-top: 1.5rem;
+    margin-bottom: 1.7rem;
+}
+.text-block span {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #181818;
+}
+
+.text-description {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    letter-spacing: 0.2px;
+}
+.project-description {
+    font-size: 1.375rem;
+    font-weight: 500;
+    line-height: 2rem;
+    letter-spacing: 0.1px;
+    margin-top: 15px;
+}
+.add-info {
+    margin-top: 1.5rem;
+    display: inline-block;
+    margin-right: 3rem;
+}
+.add-header {
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    font-size: 1.5rem;
+    color: #181818;
+}
+.add-p {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    letter-spacing: 0.2px;
+    line-height: 2rem;
+}
+/* .section-header {
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    color: #222222;
+} */
+.dp-section {
+    padding-top: 4rem;
     padding-bottom: 2rem;
 }
 
-.logo-container {
+.dp-container {
+    text-align: center;
     margin: 0 auto;
-    text-align: center;
 }
 
-.logo-icon {
-    width: 50px;
-    height: 50px;
-}
-
-.footer-nav {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    margin-left: 145px;
-    margin-bottom: -23px;
-}
-.nav-link {
-    margin-right: 25px;
-}
-.footer-link {
-    color: #AAA;
-}
-
-.f-networks {
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-right: 70px;
-}
-.f-network-box {
-    margin-right: 25px;
-}
-
-.f-sn-icon {
-    width: 20px;
-    height: 20px;
-}
-
-.copyright-text {
-    font-weight: 300;
-    line-height: 17px;
-}
-
-.intro-section {
-    height: 25vh;
-}
-.intro-text {
-    margin-top: 90px;
-    font-weight: 400;
-    font-size: 2.1em;
-}
-.profile-container {
-    text-align: center;
-}
-.profile-img {
-    width: 40%;
-    height: 40%;
-}
-
-/* .skill-set {
-
-} */
-
-.skills-title {
-    font-weight: 600;
-    margin-bottom: 25px;
-    letter-spacing: 0.8px;
-    font-size: 1.1em;
-}
-.skills-list li {
-  list-style-type: none;
-  margin-bottom: 12px;
-  letter-spacing: 0.2px;
-}
-.bio {
-    letter-spacing: 0.5px;
-    line-height: 30px;
-}
-.ui-mockup {
-    text-align: center;
-}
-.ui-img {
+.dp-img {
     width: 100%;
-    height: 100%;
+    height: auto;
 }
-
-
-.project-showcase {
-    margin-top: 8vw;
-    margin-bottom: 10vw;
-    text-align: center;
-}
-
-.side-description {
-    text-align: center;
-    padding-top: 40%;
-    
-}
-.project-detail {
-    text-transform: uppercase;
-    font-weight: 300;
-    font-size: 1.2em;
-    color: #AAA;
-    letter-spacing: 0.7px;
-}
-
-
-.project-mockup-container {
-    text-align: center;
+.research {
+    padding-top: 7rem;
+    padding-bottom: 4rem;
   
 }
-.project-mockup {
-    width: 60%;
-    height: 60%;
+.research-container {
+    padding-bottom: 3rem;
 }
-
-.gv-title {
+.upheader {
+    text-transform: uppercase;
     font-weight: 600;
-    color: #009688;
-    margin-bottom: 10px;
-    font-size: 4em;
+    color:  #afafaf;
+    letter-spacing: 2.5px;
+    font-size: 1.1rem;
 }
-.novo-title {
-    font-weight: 600;
-    color: #FF5722;
-    margin-bottom: 10px;
-    font-size: 4em;
-}
-
-.futon-title {
-    font-weight: 600;
-    color:#F44336;
-    margin-bottom: 10px;
-    font-size: 4em;
-}
-.dnv-title {
-    font-weight: 600;
-    color:#1976D2;
-    margin-bottom: 10px;
-    font-size: 4em;
-}
-.liairson-title {
-    font-weight: 600;
-    color: #FFC107;
-    margin-bottom: 10px;
-    font-size: 4em;
-}
-.metis-title {
-    font-weight: 600;
-    color: #673AB7;
-    margin-bottom: 10px;
-    font-size: 4em;
-}
-
-.logo-title {
-    font-weight: 400;
-    font-size: 2.5em;
-    color: #222;
-}
-
-.project-type {
-    font-size: 1.2em;
-    font-weight: 400;
-    color: #9B9B9B;
-}
-.project-description {
+.section-header {
     margin-top: 5px;
-    font-weight: 400;
-    font-size: 1.3em;
-    color: #222;
-    width: 90%;
-    line-height: 35px;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+ 
+}
+.research-p {
+    font-size: 1.375rem;
+    line-height: 2rem;
+    letter-spacing: 0.1px;
+    margin-top: 20px;
+}
+.research-title {
+    font-size: 1.375rem;
+    line-height: 2rem;
+    letter-spacing: 0.1px;
+    margin-top: 30px;
+}
+.research-stage {
+    font-size: 1.375rem;
+    line-height: 2rem;
+    letter-spacing: 0.1px;
 }
 
-.section-one {
-    padding-top: 8rem;
-
+.uf-container {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
 }
-.section-three{
-    padding-bottom: 4rem;
-    color: #00796a; 
-}
-
-
-.mobile-app-description p {
-    font-size: 1.3em;
-    line-height: 35px;
-}
-
-.showcase-img img {
+.uf-img {
     width: 100%;
-    height: 100%;
+    height: auto;
 }
-.showcase-name {
-
-    color: #546E7A;
+.showcase-img {
+    margin-bottom: 25px;
 }
-
-.logo-container {
+.showcase-img img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 5px;
+}
+.showcase-title {
+    color: #a4a4a4;
+    font-size: 1.1rem;
+}
+.sub-p {
+    padding-top: 5rem;
+    padding-bottom: 6.5rem;
+}
+.testing {
+    padding-top: 3rem;
+    padding-bottom: 4.5rem;
+}
+/* .testing-p::before {
+    content: "\2014\2014\2014"
+} */
+.testing-p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    letter-spacing: 0.1px;
+    margin-top: 20px;
+    font-weight: 400;
+}
+.novotest-container {
+    margin-top: 5rem;
     text-align: center;
 }
-
-.logo-showcase {
+.novotest-img {
+    width: 65%;
+    height: auto;
+}
+.style {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.style-img {
     width: 100%;
-    height: 100%;
+    height: auto;
+}
+footer {
+    margin-top: 20px;
 }
 
 /* ========================= Media Queries ======================== */
 
+@media (min-width: 576px) {
 
-@media only screen and (max-width: 500px) {
-    label {
-        display: block;
-        cursor: pointer;
-        position: relative;
-        z-index: 25001;
-    }
-    .menu {
-        text-align: center;
-        width: 100%;
-        display: none;
-        position: relative;
-        z-index: 25000;
-        background-color: white;
-    }
-    .menu a {
-        display: block;
-        border-bottom: 1px solid #EAEAEB;
-        margin: 0;
-    }
-    #toggle:checked + .menu {
-        display: block;
-        outline: none;
-     
-    }
-    .mobile-logo {
-        left: 30px;
-        top: 17px;
-    }
-    .mobile-logo a {
-        font-size: 1.4em;
-    }
-    .project-container{
-        margin-bottom: 25px;
-    }
-    .project-img {
-        width: 100%;
-        height: 100%;
-    }
-    .overlay {
-        width: 100%;
-        height: 100%;
-    }
-    .project-title {
-        font-size: 1.5em;
-    }
-    .project-category {
-        top: 65%;
-        font-size: 0.7em;
-    }
-    .footer-nav {
-        margin-left: 0;
-        text-align: center;
-        justify-content: center;
-        margin-left: 25px;
-        margin-bottom: 25px;
-        margin-top: 25px;
-    }
-    .f-networks {
-        justify-content: center;
-        margin-right: 0;
-        margin-top: 25px;
-        text-align: center;
-    }
-    .f-network-box {
-       margin-left: 25px;
-       margin-bottom: 15px;
-    }
+}
+@media (min-width: 768px) {
 
-    .gv-title {
-        font-size: 3em;
-    }
-    .project-description {
-        width: 100%;
+}
+@media (min-width: 1024px) {
+
+    .showcase-block {
+        text-align: left;
+        padding-top: 70px;
+        padding-bottom: 25px;
+        width: 85%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
         
     }
-    .showcase-img {
-        margin-top: 45px;
+    .pshowcase-info {
+        align-self: center;
+        margin-top: -110px;
+    }
+    small {
+        font-size: 1.1em;
+        opacity: 0.8;
+    }
+    .sproject-title {
+        margin-top: 0;
+        font-size: 4.2em;
+        margin-bottom: 20px;
+    }
+    .sproject-role {
+        display: block;
+        font-size: 1.3em;
+        letter-spacing: 0.3px;
+        margin-bottom: 7px;
+    }
+    .sproject-client {
+        display: block;
+        letter-spacing: 0.3px;
+        font-size: 1.3em;
+    }
+    .sproject-img {
+        text-align: right;
+    }
+    .rego-img {
+        width: 65%;
+        height: auto;
+    }
+    .slogan {
+        line-height: 39px;
+    }
+    .novobanner-img {
+        height: 90vh;
+    }
+    .gvbanner-img {
+        height: 90vh;
+    }
+    .dp-container {
+        width: 85%;
+    }
+    .section-header {
+        margin-top:15px;
+    }
+    .add-info {
+        margin-right: 7rem;
+    }
+    .research-container {
+        padding-bottom: 7.5rem;
+    }
+    .testing {
+        padding-top: 6.5rem;
+        padding-bottom: 5.5rem;
+    }
+    .novotest-container {
+        margin-top: 0;
+        margin-left: 2.5rem;
+    }
+    .novotest-img {
+        width: 50%;
+        height: auto;
+    }
+    .style {
+        padding-top: 6rem;
     }
     
 }
-
-
-@media screen and (min-width: 1920px) {
-    .project-img {
-        width: 100%;
-        height: auto;
-    }
-    .overlay {
-        width: 100%;
-        height: auto;
+@media (min-width: 1400px) {
+    .intro-title {
+        width: 87%;
     }
 }
-
-
-
-
-
-
-
-
-

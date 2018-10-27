@@ -2,12 +2,12 @@
 <html lang="en">
 
 <head>
-
     <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta charset="utf-8">
-    <title>Max Bardus - Novo</title>
-    <meta name="description" content="My Personal Portfolio website showcasing my work for UI/UX design and front-end development">
+    <link rel="canonical" href="https://maxbardus.com" />
+    <title>Novo - Max Bardus | UI/UX Desginer</title>
+    <meta name="description" content="My personal portfolio website showcasing my UI/UX design and front-end development work">
     <meta name="author" content="Maksym Bardus">
 
     <!-- Mobile Specific Metas
@@ -16,214 +16,362 @@
 
     <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600" rel="stylesheet">
+
     <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  ––––––––––––––––––––––––––––––––––––––s–––––––––––– -->
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/prometheus.css">
+    <!-- <link rel="stylesheet" href="css/skeleton.css"> -->
     <link rel="stylesheet" href="css/style.css">
 
     <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="icon" type="image/png" href="images/logos/favicon.png">
 
 </head>
 
 <body>
-    <div class="mobile-logo">
-        <div class="mobile-title">
-            <a href="index.html">Max Bardus</a>
+    <header class="header">
+        <a href="https://maxbardus.com" class="header-logo" data-go="home" title="Home">Home</a>
+        <nav role="navigation" class="d-none d-md-block">
+            <ul class="header-navigation barba-navigation">
+                <li>
+                    <a class=" view-work active" data-go="work" href="https://maxbardus.com">Projects</a>
+                </li>
+                <li>
+                    <a class=" view-blog" href="desgin.html">Design Concepts</a>
+                </li>
+                <li>
+                    <a class=" view-contact" data-go="contact" href="https://ivomynttinen.com/contact">About Me</a>
+                </li>
+            </ul>
+        </nav>
+        <button class="d-md-none mobile-menu-button" aria-label="Menu"><span></span></button>
+    </header>
+    <div class="mobile-menu">
+        <div class="mobile-menu-header">
+            <a href="https://maxbardus.com" class="header-logo" data-go="home" title="Home">Home</a>
+            <button class="mobile-menu-close" aria-label="Close Menu"><span></span></button>
+        </div>
+        <nav role="navigation">
+            <ul class="mobile-menu-navigation barba-navigation">
+                <li>
+                    <a class=" view-work active" data-go="work" href="https://maxbardus.com">Projects</a>
+                </li>
+                <li>
+                    <a class=" view-blog" data-go="blog" href="https://ivomynttinen.com/blog">Design Concepts</a>
+                </li>
+                <li>
+                    <a class=" view-contact" data-go="contact" href="https://ivomynttinen.com/contact">About Me</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <div id="barba-wrapper">
+        <div class="barba-container" data-namespace="home">
+            <div class="custom-container">
+                <div class="project-name">
+                    <h3>Novo</h3>
+                    <p>Android/IOS Application</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="project-banner">
+        <!-- <img src="../maxbardus/images/novobanner.png" alt="Novo Banner" class="banner-img"> -->
+        <div class="novobanner-img"></div>
+    </div>
+
+
+    <div id="barba-wrapper">
+        <div class="barba-container" data-namespace="home">
+            <div class="container-fluid">
+                <section class="project-introduction">
+                    <div class="row">
+                        <div class="col-12 col-lg-5">
+                            <div class="projectsum">
+                                <div class="text-block">
+                                    <span>Role</span>
+                                    <div class="text-description">
+                                        UI/UX Designer
+                                    </div>
+                                </div>
+                                <div class="text-block">
+                                    <span>Design Tools</span>
+                                    <div class="text-description">
+                                        Sketch, InVision, Material Theming
+                                    </div>
+                                </div>
+                                <div class="text-block">
+                                    <span>Development</span>
+                                    <div class="text-description">
+                                        React Native
+                                    </div>
+                                </div>
+                                <div class="text-block">
+                                    <span>Team</span>
+                                    <div class="text-description">
+                                        Pavle Boraniev - Mobile Developer
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-7">
+                            <p class="project-description">Novo is an intermittent fasting app that lets you track your
+                                fast with no distractions
+                                on extra useless features. The app enables you to monitor your fasting time, so you
+                                don't need to worry if you missed prescheduled fast or overdid/underdid it.</p>
+                            <div class="add-info">
+                                <div class="add-header">Client</div>
+                                <p class="add-p">Personal/Collaborative</p>
+                            </div>
+                            <div class="add-info" style="margin-left: 1.5rem;">
+                                <div class="add-header">Location</div>
+                                <p class="add-p">Toronto, Ontario</p>
+                            </div>
+                            <div class="add-info">
+                                <div class="add-header">Contribution</div>
+                                <p class="add-p">Designed Android version of the app with second gen of Material Design
+                                    and custom components.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <section class="dp-section">
+                    <div class="dp-container">
+                        <img class="dp-img" src="images/mockups/designprocess.svg" alt="Design Process">
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div id="barba-wrapper">
+        <div class="barba-container" data-namespace="home">
+            <div class="container-fluid">
+                <section class="research">
+                    <div class="research-container">
+                        <div class="row">
+                            <div class="col-12 col-lg-5">
+                                <span class="upheader">analyzing</span>
+                                <h4 class="section-header">Problem</h4>
+                            </div>
+                            <div class="col-12 col-lg-7">
+                                <p class="research-p">Currently, there is no prominent intermittent fasting tracker
+                                    available in Google
+                                    Play and App Store. Moreover, apps that are available often require a monthly
+                                    subscription to enable tracking feature or contain many ads which disturb user
+                                    experience.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="research-container">
+                        <div class="row">
+                            <div class="col-12 col-lg-5">
+                                <span class="upheader">Conducting</span>
+                                <h4 class="section-header">Research</h4>
+                            </div>
+                            <div class="col-12 col-lg-7">
+                                <p class="research-p">In order to design experience that mathes target audience, I
+                                    analyzed the market and its users.</p>
+                                <p class="research-title"><span style="font-weight:600; color: #d23e34">01.</span><strong>
+                                        Competitive Analysis</strong></p>
+                                <p class="research-stage">During research of the existing competition, I discovered
+                                    that there is currently no fitness application designed specifically
+                                    for tracking fasts in Google Play. Based on this information it was decided to
+                                    develop an Android
+                                    version first.</p>
+                                <p class="research-title"><span style="font-weight:600; color: #d23e34">02.</span><strong>
+                                        Target Audience</strong></p>
+                                <p class="research-stage">During research of the existing competition on Google Play
+                                    and App Store, I discovered that no fitness application was designed specifically
+                                    for tracking fasts. Based on this information it was decided to develop an Android
+                                    version first.</p>
+                                <p class="research-title"><span style="font-weight:600; color: #d23e34">03.</span><strong>
+                                        Design Style</strong></p>
+                                <p class="research-stage">During research of the existing competition on Google Play
+                                    and App Store, I discovered that no fitness application was designed specifically
+                                    for tracking fasts. Based on this information it was decided to develop an Android
+                                    version first.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="wireframe">
+                    <span class="upheader">Interface</span>
+                    <h4 class="section-header">User Flow & Wireframe</h4>
+                    <div class="uf-container">
+                        <img class="uf-img" src="images/presentation/novowireframe.png" alt="User Flow">
+                    </div>
+                </section>
+                <section class="user-interface">
+                    <span class="upheader">Interface</span>
+                    <h4 class="section-header">Final UI</h4>
+
+                    <div class="row" style="padding-top: 5rem;">
+                        <div class="col-12 col-lg-4">
+                            <div class="showcase-img" style="text-align: left;">
+                                <img src="images/mockups/novohome.png" alt="Novo Home Screen">
+                                <span class="showcase-title">Main Screen</span>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="showcase-img" style="text-align: left;">
+                                <img src="images/mockups/novofasted.png" alt="Novo Fasted Screen">
+                                <span class="showcase-title">Fasted</span>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="showcase-img" style="text-align: left;">
+                                <img src="images/mockups/novonotfasted.png" alt="Novo Not Fasted Screen">
+                                <span class="showcase-title">Didn't Fast</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sub-p">
+                        <div class="row">
+                            <div class="col-12 col-lg-7">
+                                <p class="research-stage">You have options to select preferred fasting type or set your
+                                    own. There is also
+                                    history that tracks all your fasts and some simple settings to make tracking more
+                                    comfortable.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" style="padding-bottom: 5rem;">
+                        <div class="col-12 col-lg-4">
+                            <div class="showcase-img" style="text-align: left;">
+                                <img src="images/mockups/fastingtype.png" alt="Fasting Type Screen">
+                                <span class="showcase-title">Choose your pace</span>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="showcase-img" style="text-align: left;">
+                                <img src="images/mockups/fastinghistory.png" alt="Fasting History">
+                                <span class="showcase-title">Fasting History</span>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="showcase-img" style="text-align: left;">
+                                <img src="images/mockups/novosettings.png" alt="Novo Settings">
+                                <span class="showcase-title">Settings</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div id="barba-wrapper" style="background-color: #f1f2f6;">
+        <div class="barba-container" data-namespace="home">
+            <div class="container-fluid">
+                <section class="testing">
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <br>
+                            <br>
+
+                            <span class="upheader">Usability</span>
+                            <h4 class="section-header">Intuitive Testing</h4>
+                            <p class="testing-p">To test if the app has a clear and understandable interface I decided
+                                to do the
+                                "Intuitive Testing." The basic idea of this type of testing is to analyze if the user
+                                can understand what each event trigger in the app will do before the actual
+                                interaction. I disabled buttons that has specific functionality and questioned several
+                                users about what they expect to see after clicking them.</p>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="novotest-container">
+                                <img class="novotest-img" src="images/presentation/novotest.gif" alt="Novo Test">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
         </div>
     </div>
 
-    <div class="mobile-nav">
-        <label for="toggle">&#9776</label>
-        <input type="checkbox" id="toggle" />
-        <div class="menu">
-            <a href="index.html" style="color: #222">Portfolio</a>
-            <a href="about.html">About Me</a>
-            <a href="moodboard.html">Moodboard</a>
+    <div id="barba-wrapper">
+        <div class="barba-container" data-namespace="home">
+            <div class="container-fluid">
+                <section class="style">
+                    <span class="upheader">Design</span>
+                    <h4 class="section-header">Style</h4>
+                    <div class="style-container">
+                        <img class="style-img" src="images/presentation/novostyle.svg" alt="Novo Style">
+                    </div>
+                    </section>
+            </div>
         </div>
     </div>
 
-    <div class="container" style="max-width: 90%;">
-        <div class="row" style="padding-top: 5rem; padding-bottom: 3rem;">
-            <div class="five columns">
-                <div class="projec-title">
-                    <h4 class="novo-title">Novo</h4>
-                    <p class="project-type">Android &amp; IOS Apps</p>
-                </div>
-            </div>
-            <div class="seven columns">
-                <div class="project-description">
-                    Novo is an intermittent fasting app that lets you track your fast with no distractions on extra useless features. The app
-                    enables you to monitor your fasting time, so you don't need to worry if you missed prescheduled fast
-                    or overdid/underdid it.
-                </div>
-            </div>
-        </div>
-        <div class="ui-mockup">
-            <img class="ui-img" src="images/novomockup.jpg" alt="Novo Demo">
-        </div>
-    </div>
-
-
-    <section class="section-one">
-        <div class="container" style="max-width: 90%;">
+    <footer class="break-out dark footer pt-3 pb-3 pt-xl-5 pb-xl-11">
+        <div class="container-fluid">
             <div class="row">
-                <div class="six columns">
-                    <div class="mobile-app-description">
-                        <p>With Novo, you can track your fast with precision. The app will record if you decided to interrupt
-                            your fast, skipped it and track your fast start and end time with exact date. All features are wrapped
-                            in modern, intuitive design powered by Google's latest Material Design 2.0.</p>
+                <div class="col-12 col-lg-3 mb-2">
+                    <div class="footer-about mb-lg-2">
+                        <span class="title">Max Bardus</span>
+                        <span class="subline">UI/UX Designer & Developer</span>
+                    </div>
+                    <div class="footer-legal d-none d-lg-block">
+                        <a title="Copyright © 2018">Copyright © 2018</a>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
+                <div class="col-12 col-lg-2 offset-lg-1">
+                    <h4 class="d-lg-none collapsed" data-expand="#sitemap">Sitemap</h4>
+                    <nav role="navigation" class="d-lg-block collapse" id="sitemap">
+                        <ul class="footer-sitemap">
+                            <li>
+                                <a data-go="home" href="https://ivomynttinen.com">Projects</a>
+                            </li>
+                            <li>
+                                <a data-go="work" href="https://ivomynttinen.com/work">Design Concepts</a>
+                            </li>
+                            <li>
+                                <a data-go="blog" href="https://ivomynttinen.com/blog">About Me</a>
+                            </li>
 
-
-    <section class="project-showcase">
-        <div class="container" style="max-width: 90%;">
-            <div class="row">
-                <div class="four columns" style="text-align: left;">
-                    <div class="showcase-img">
-                        <img src="images/novohome.png" alt="Novo Home Screen">
-                    </div>
-                    <span class="showcase-name">Main Screen</span>
+                        </ul>
+                    </nav>
                 </div>
-                <div class="four columns" style="text-align: left;">
-                    <div class="showcase-img">
-                        <img src="images/novofasted.png" alt="Novo Fasted Screen">
-                    </div>
-                    <span class="showcase-name">Fasted</span>
+                <div class="col-12 col-lg-2">
+                    <h4 class="d-lg-none collapsed" data-expand="#social">Social Networks</h4>
+                    <ul id="social" class="d-lg-block collapse">
+                        <li><a href="https://www.linkedin.com/in/maxbardus/" target="_blank" title="My LinkedIn Page"
+                                rel="noopener">LinkedIn</a></li>
+                        <li><a href="https://www.instagram.com/max_bardus/" target="_blank" title="Follow me on Instagram"
+                                rel="noopener">Instagram</a></li>
+                        <li><a href="https://www.behance.net/maxhitech58b2" target="_blank" title="Check out my work on Behance"
+                                rel="noopener">Behance</a></li>
+                        <li><a href="https://github.com/MaxBardus" target="_blank" title="Check out my work on Github"
+                                rel="noopener">Github</a></li>
+                    </ul>
                 </div>
-                <div class="four columns" style="text-align: left;">
-                    <div class="showcase-img">
-                        <img src="images/novonotfasted.png" alt="Novo Didn't Fast Screen">
-                    </div>
-                    <span class="showcase-name">Didn't fast</span>
+                <div class="d-none d-lg-block col-12 col-lg-3 offset-lg-1">
+                    <p class="footer-address mb-1" itemscope itemtype="http://schema.org/Organization">
+                        <span itemprop="name" class="d-none">Max Bardus</span>
+                        <span itemprop="streetAddress">Toronto, ON</span><br>
+                    </p>
+                    <a href="mailto:maksymbardus@gmail.com">maksymbardus@gmail.com</a>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section-two">
-        <div class="container" style="max-width: 90%;">
-            <div class="row">
-                <div class="six columns">
-                    <div class="mobile-app-description">
-                        <p>You have options to select preferred fasting type or set your own. There is also history that
-                            tracks all your fasts and some simple settings to make tracking more comfortable.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="project-showcase">
-        <div class="container" style="max-width: 90%;">
-            <div class="row">
-                <div class="four columns" style="text-align: left;">
-                    <div class="showcase-img">
-                        <img src="images/choosefast.png" alt="Choose Fasting">
-                    </div>
-                    <span class="showcase-name">Choose fasting type</span>
-                </div>
-                <div class="four columns" style="text-align: left;">
-                    <div class="showcase-img">
-                        <img src="images/fastinghistory.png" alt="Green Vision Upload Post">
-                    </div>
-                    <span class="showcase-name">Fasting History</span>
-                </div>
-                <div class="four columns" style="text-align: left;">
-                    <div class="showcase-img">
-                        <img src="images/novosettings.png" alt="Green Vision Profile">
-                    </div>
-                    <span class="showcase-name">Settings</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="section-three">
-        <div class="container" style="max-width: 90%;">
-            <div class="row">
-                <div class="six columns u-pull-right">
-                    <div class="mobile-app-description" style="color: #FF5722;">
-                        <p>Designed Android and IOS apps with second gen of Material Design and Human Interface respectively.
-                            Based on the user research which showed lack of intermittent fasting apps that focuses on tracking
-                            in Google Play it was decided to design and develop Android version of the app first.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <div class="container" style="max-width: 90%;">
-        <div class="row">
-            <div class="four columns">
-                <div class="skill-set">
-                    <div class="skills-title">Information</div>
-                    <ul class="skills-list">
-                        <li>Role: UI/UX Designer</li>
-                        <li>Design: Sketch, InVision, Material Design 2.0</li>
-                        <li>Development: React Native</li>
-                        <li>Date: July - August, 2018</li>
-                        <li>Location: Toronto, Canada</li>
+                <div class="col-12 d-lg-none">
+                    <h4 class="d-lg-none collapsed" data-expand="#legal">Legal</h4>
+                    <ul id="legal" class="collapse collapse">
+                        <li>Copyright © 2018</li>
                     </ul>
                 </div>
             </div>
-            <!-- <div class="eight columns">
-                                </div> -->
         </div>
-    </div>
-
-    <footer>
-        <div class="logo-container">
-            <img class="logo-icon" src="images/favicon.png" alt="Logo">
-        </div>
-
-        <div class="footer-nav">
-            <div class="nav-link">
-                <a href="#" class="footer-link" style="color: #222">Portfolio</a>
-            </div>
-            <div class="nav-link">
-                <a href="about.html" class="footer-link">About Me</a>
-            </div>
-            <div class="nav-link">
-                <a href="moodboard.html" class="footer-link">Moodboard</a>
-            </div>
-        </div>
-        <div class="f-networks">
-            <div class="f-network-box">
-                <a href="https://www.linkedin.com/in/maxbardus/" target="_blank">
-                    <img src="images/linkedin.svg" class="f-sn-icon" alt="linkedin">
-                </a>
-            </div>
-            <div class="f-network-box">
-                <a href="https://www.instagram.com/max_bardus/" target="_blank">
-                    <img src="images/instagram.svg" class="f-sn-icon" alt="Instagram">
-                </a>
-            </div>
-            <div class="f-network-box">
-                <a href="https://www.behance.net/maxhitech58b2" target="_blank">
-                    <img src="images/behance.svg" class="f-sn-icon" alt="Behance">
-                </a>
-            </div>
-            <div class="f-network-box">
-                <a href="https://github.com/MaxBardus" target="_blank">
-                    <img src="images/github.svg" class="f-sn-icon" alt="github">
-                </a>
-            </div>
-            <div class="f-network-box">
-                <div class="copyright-text">Copyright © 2018</div>
-            </div>
-        </div>
-
     </footer>
 
-</body>
 
-</html>
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/prometheus.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>

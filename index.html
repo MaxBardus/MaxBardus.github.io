@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <script type="text/javascript">
     var host = "maxbardus.com";
     if ((host == window.location.host) && (window.location.protocol != "https:")) {
-    window.location.protocol = "https";
+      window.location.protocol = "https";
     }
-    </script>
+  </script>
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <link rel="canonical" href="https://maxbardus.com" />
-  <title>Max Bardus</title>
-  <meta name="description" content="My Personal Portfolio website showcasing my work for UI/UX design and front-end development">
+  <title>Max Bardus | UI/UX Desginer</title>
+  <meta name="description" content="My personal portfolio website showcasing my UI/UX design and front-end development work">
   <meta name="author" content="Maksym Bardus">
 
   <!-- Mobile Specific Metas
@@ -21,203 +22,225 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600" rel="stylesheet">
+
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/prometheus.css">
+  <!-- <link rel="stylesheet" href="css/skeleton.css"> -->
   <link rel="stylesheet" href="css/style.css">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="icon" type="image/png" href="images/logos/favicon.png">
 
 </head>
-<body>
 
+<body>
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <div class="mobile-logo">
-        <div class="mobile-title">
-          <a href="index.html">Max Bardus</a>
-        </div>
+  <header class="header">
+    <a href="https://maxbardus.com" class="header-logo" data-go="home" title="Home">Home</a>
+    <nav role="navigation" class="d-none d-md-block">
+      <ul class="header-navigation barba-navigation">
+        <li>
+          <a class=" view-work active" data-go="work" href="https://maxbardus.com" style="letter-spacing: 0.1px">Projects</a>
+        </li>
+        <li>
+          <a  class=" view-blog" data-go="blog" href="https://maxbardus.com/designconcepts.html" style="letter-spacing: 0.1px">Design Concepts</a>
+        </li>
+        <li>
+          <a class=" view-contact" data-go="contact" href="https://ivomynttinen.com/contact" style="letter-spacing: 0.1px">About Me</a>
+        </li>
+      </ul>
+    </nav>
+    <button class="d-md-none mobile-menu-button" aria-label="Menu"><span></span></button>
+  </header>
+  <div class="mobile-menu">
+    <div class="mobile-menu-header">
+      <a href="https://maxbardus.com" class="header-logo" data-go="home" title="Home">Home</a>
+      <button class="mobile-menu-close" aria-label="Close Menu"><span></span></button>
     </div>
+    <nav role="navigation">
+      <ul class="mobile-menu-navigation barba-navigation">
+        <li>
+          <a class=" view-work active" data-go="work" href="https://maxbardus.com">Projects</a>
+        </li>
+        <li>
+          <a class=" view-blog" data-go="blog" href="https://maxbardus.com/designconcepts.html">Design Concepts</a>
+        </li>
+        <li>
+          <a class=" view-contact" data-go="contact" href="https://ivomynttinen.com/contact">About Me</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
 
-    <div class="mobile-nav">
-        <label for="toggle">&#9776</label>
-        <input type="checkbox" id="toggle"/>
-        <div class="menu">
-          <a href="index.html" style="color: #222">Portfolio</a>
-          <a href="about.html">About Me</a>
-          <a href="moodboard.html">Moodboard</a>
+
+  <div id="barba-wrapper">
+    <div class="barba-container" data-namespace="home">
+      <div class="custom-container">
+        <div class="intro-block">
+          <div class="intro-title">
+            Hello, my name is <strong style="color:black; opacity: 0.7;">Max Bardus</strong>. I am a UI/UX Designer and
+            front-end developer focused on designing creative yet intuitive apps and websites. Currently looking for a
+            new opportunities.
+          </div>
+          <br>
+          <div class="social-n">
+            <ul class="networks-list">
+                <li>
+                  <a href="#" target="_blank"><img src="images/logos/resume.svg" class="header-network resume" alt="Resume"></a>
+                </li>
+              <li>
+                <a href="https://www.linkedin.com/in/maxbardus/" target="_blank"><img src="images/logos/linkedin-logo.svg" class="header-network linkedin" alt="LinkedIn"></a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </div> 
+        <div class="project-showcase">
+          <div class="showcase-block">
+          <div class="pshowcase-info">
+            <small>current project</small>
+            <div class="sproject-title">REGO</div>
+            <div class="sproject-role">Role: UI Designer and Front-End Developer</div>
+            <div class="sproject-client">Client: Personal</div>
+          </div>
+          <div class="sproject-img">
+            <img src="images/presentation/regoshowcase.png" class="rego-img" alt="REGO">
+          </div>
+          </div>
+        </div>
 
-
-<!--   <div class="container" style="max-width: 90%;">
-    <div class="logo-wrapper">
-      <div class="site-title"><a href="#">Max Bardus</a></div>
-    </div>
-
-    <nav class="site-nav">
-      <div class="nav-item">
-        <a href="#" class="nav-item-link">
-          <span>Portfolio</span>
-        </a>
       </div>
-      <div class="nav-item">
-        <a href="#" class="nav-item-link">
-          <span>About Me</span>
-        </a>
-        </div>
-        <div class="nav-item">
-          <a href="#" class="nav-item-link">
-            <span>Contact</span>
-          </a>
-          </div>
-    </nav> -->
+    </div>
+  </div>
 
-    <div class="container" style="max-width: 90%;">
-      <div class="row">
-          <div class="six columns">
-            <div class="project-container" data-aos="fade-right">
-            <img src="images/novomockup.jpg" class="project-img" alt="Futon App">
-            <a href="novo.html">
-            <div class="overlay">
-              <div class="project-title">Novo</div>
-              <div class="project-category">UI/UX</div>
-            </div>
-          </a>
 
-         <!--  <img src="images/gvwelcome.png" class="project-img" alt="Green Vision">
-          <a href="greenvision.html">
-          <div class="overlay">
-            <div class="project-title">Green Vision</div>
-            <div class="project-category">UI/UX</div>
-          </div>
-        </a>    -->
-
-            </div>
-          </div>
-          <div class="six columns">
-              <div class="project-container" data-aos="fade-left">
-                  <img src="images/gvwelcome.jpg" class="project-img" alt="Green Vision">
-                  <a href="greenvision.html">
+  <div id="barba-wrapper">
+    <div class="barba-container" data-namespace="home">
+      <div class="custom-container">
+        <div class="row" style="margin-top: 50px;">
+          <div class="col-12 col-lg-6">
+              <div class="project-container">
+                  <img src="images/presentation/novomockup.jpg" class="project-img" alt="Novo App">
+                  <a href="../maxbardus/novo.html">
                   <div class="overlay">
-                    <div class="project-title">Green Vision</div>
+                    <div class="project-title">Novo</div>
                     <div class="project-category">UI/UX</div>
                   </div>
                 </a>
                   </div>
           </div>
-      </div>
-      <br>
-      <br>
-
-      <div class="row">
-          <div class="six columns">
-            <div class="project-container" data-aos="fade-up" data-aos-delay="600">
-            <img src="images/futon.jpg" class="project-img" alt="Futon">
-            <a href="futon.html">
-            <div class="overlay">
-              <div class="project-title">Futon</div>
-              <div class="project-category">UI Design/Development</div>
-            </div>
-          </a>
-            </div>
-          </div>
-          <div class="six columns">
-              <div class="project-container" data-aos="fade-up" data-aos-delay="600">
-                  <img src="images/dnvmockup.png" class="project-img" alt="D&amp;V Group">
-                  <a href="dnv.html">
-                  <div class="overlay">
-                    <div class="project-title">D&amp;V Group</div>
-                    <div class="project-category">SEO, Web Design/Development</div>
-                  </div>
-                </a>
-                  </div>
-          </div>
-      </div>
-      <br>
-      <br>
-      <div class="row">
-          <div class="six columns">
-            <div class="project-container" data-aos="fade-up">
-            <img src="images/liairsonmockup.png" class="project-img" alt="Metis">
-            <a href="liairson.html">
-            <div class="overlay">
-              <div class="project-title">La Liairson</div>
-              <div class="project-category">UI</div>
-            </div>
-          </a>
-            </div>
-          </div>
-          <div class="six columns">
-              <div class="project-container" data-aos="fade-up">
-
-            <img src="images/metis.png" class="project-img" alt="Metis">
-            <a href="metis.html">
-            <div class="overlay">
-              <div class="project-title">Project Metis</div>
-              <div class="project-category">Web Design &amp; front-end Development</div>
-            </div>
-          </a>
-                  </div>
-          </div>
-      </div>
-      </div>
-
-      <footer>
-        <div class="logo-container">
-          <img class="logo-icon" src="images/favicon.png" alt="Logo">
-        </div>
-    
-        <div class="footer-nav">
-          <div class="nav-link">
-            <a href="#" class="footer-link" style="color: #222" >Portfolio</a>
-          </div>
-          <div class="nav-link">
-            <a href="about.html" class="footer-link">About Me</a>
-          </div>
-          <div class="nav-link">
-            <a href="moodboard.html" class="footer-link">Moodboard</a>
-          </div>
-        </div>
-        <div class="f-networks">
-          <div class="f-network-box">
-            <a href="https://www.linkedin.com/in/maxbardus/" target="_blank"><img src="images/linkedin.svg" class="f-sn-icon" alt="linkedin"></a>
-          </div>
-          <div class="f-network-box">
-              <a href="https://www.instagram.com/max_bardus/" target="_blank"><img src="images/instagram.svg" class="f-sn-icon" alt="Instagram"></a>
-            </div>
-            <div class="f-network-box">
-                <a href="https://www.behance.net/maxhitech58b2" target="_blank"><img src="images/behance.svg" class="f-sn-icon" alt="Behance"></a>
+          <div class="col-12 col-lg-6">
+              <div class="project-container">
+              <img src="images/presentation/gvwelcome.jpg" class="project-img" alt="Green Vision">
+              <a href="greenvision.html">
+              <div class="overlay">
+                <div class="project-title">Green Vision</div>
+                <div class="project-category">UI/UX</div>
               </div>
-              <div class="f-network-box">
-                  <a href="https://github.com/MaxBardus" target="_blank"><img src="images/github.svg" class="f-sn-icon" alt="github"></a>
-                </div>
-                <div class="f-network-box">
-                    <div class="copyright-text">Copyright © 2018</div>
-                  </div>
+            </a>
+              </div>
+          </div>
         </div>
-       
-      </footer>
-<!-- End Document
+        <div class="row">
+            <div class="col-12 col-lg-6">
+              <div class="project-container">
+                <img src="images/presentation/luoshowcase.png" class="project-img" alt="Luo" >
+                <a href="futon.html">
+                <div class="overlay">
+                  <div class="project-title">Luo</div>
+                  <div class="project-category">UI/UX</div>
+                </div>
+              </a>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="project-container">
+                    <img src="images/presentation/dnvmockup.png" class="project-img" alt="D&amp;V Group">
+                    <a href="dnv.html">
+                    <div class="overlay">
+                      <div class="project-title">D&amp;V Group</div>
+                      <div class="project-category">SEO, Web Design/Development</div>
+                    </div>
+                  </a>
+                    </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="break-out dark footer pt-3 pb-3 pt-xl-5 pb-xl-11" >
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-lg-3 mb-2">
+            <div class="footer-about mb-lg-2">
+              <span class="title">Max Bardus</span>
+              <span class="subline">UI/UX Designer & Developer</span>
+            </div>
+            <div class="footer-legal d-none d-lg-block">
+              <a title="Copyright © 2018">Copyright © 2018</a>
+            </div>
+          </div>
+          <div class="col-12 col-lg-2 offset-lg-1">
+            <h4 class="d-lg-none collapsed" data-expand="#sitemap">Sitemap</h4>
+            <nav role="navigation" class="d-lg-block collapse" id="sitemap">
+              <ul class="footer-sitemap">
+                            <li>
+                  <a data-go="home" href="https://maxbardus.com">Projects</a>
+                </li>
+                            <li>
+                  <a data-go="work" href="https://maxbardus.com/designconcepts.html">Design Concepts</a>
+                </li>
+                            <li>
+                  <a data-go="blog" href="https://ivomynttinen.com/blog">About Me</a>
+                </li>
+               
+                          </ul>
+            </nav>
+          </div>
+          <div class="col-12 col-lg-2">
+            <h4 class="d-lg-none collapsed" data-expand="#social">Social Networks</h4>
+            <ul id="social" class="d-lg-block collapse">
+              <li><a href="https://www.linkedin.com/in/maxbardus/" target="_blank" title="My LinkedIn Page" rel="noopener">LinkedIn</a></li>
+              <li><a href="https://www.instagram.com/max_bardus/" target="_blank" title="Follow me on Instagram" rel="noopener">Instagram</a></li>
+              <li><a href="https://www.behance.net/maxhitech58b2" target="_blank" title="Check out my work on Behance" rel="noopener">Behance</a></li>
+              <li><a href="https://github.com/MaxBardus" target="_blank" title="Check out my work on Github" rel="noopener">Github</a></li>
+            </ul>
+          </div>
+          <div class="d-none d-lg-block col-12 col-lg-3 offset-lg-1">
+            <p class="footer-address mb-1" itemscope itemtype="http://schema.org/Organization">
+              <span itemprop="name" class="d-none">Max Bardus</span>
+              <span itemprop="streetAddress">Toronto, ON</span><br>
+            </p>
+            <a href="mailto:maksymbardus@gmail.com">maksymbardus@gmail.com</a>
+          </div>
+          <div class="col-12 d-lg-none">
+              <h4 class="d-lg-none collapsed" data-expand="#legal">Legal</h4>
+              <ul id="legal" class="collapse collapse">
+                <li>Copyright © 2018</li>
+              </ul>
+            </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+
+
+
+
+  <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/prometheus.js"></script>
   <script type="text/javascript" src="js/app.js"></script>
-  <script type="text/javascript" src="js/aos.js"></script>
-  <script>
-    AOS.init(
-        {
-          duration: 1000,
-        }
-      );
-  </script>
 
 </body>
+
 </html>
-
-
-

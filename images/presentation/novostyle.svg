@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1080px" height="650px" viewBox="0 0 1080 650" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Pixel</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Pixel" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <text id="Aa" font-family="Raleway-Medium, Raleway" font-size="80" font-weight="400" letter-spacing="0.888888717" fill="#FF7043">
+            <tspan x="60" y="169">Aa</tspan>
+        </text>
+        <text id="AaBbCcDdEeFfGHhIiJj" font-family="Raleway-Medium, Raleway" font-size="30" font-weight="400" letter-spacing="0.333333284" fill="#000000">
+            <tspan x="60" y="254">AaBbCcDdEeFfGHhIiJj</tspan>
+        </text>
+        <text id="AaBbCcDdEeFfGHhIiJj-Copy" font-family="Raleway-Regular, Raleway" font-size="30" font-weight="normal" letter-spacing="0.333333284" fill="#000000">
+            <tspan x="60" y="358">AaBbCcDdEeFfGHhIiJj</tspan>
+        </text>
+        <g id="Group-4" transform="translate(600.000000, 188.000000)">
+            <text id="#FF7043" font-family="Raleway-Regular, Raleway" font-size="20" font-weight="normal" letter-spacing="0.222222179" fill="#000000">
+                <tspan x="0" y="110">#FF7043</tspan>
+            </text>
+            <g id="Group-3" transform="translate(281.000000, 166.000000)">
+                <text id="#FA3336" font-family="Raleway-Regular, Raleway" font-size="20" font-weight="normal" letter-spacing="0.222222179" fill="#000000">
+                    <tspan x="0" y="107">#FA3336</tspan>
+                </text>
+                <rect id="Rectangle-Copy-3" fill="#FA3336" fill-rule="nonzero" x="0" y="0" width="78" height="78" rx="39"></rect>
+            </g>
+            <text id="#D61757" font-family="Raleway-Regular, Raleway" font-size="20" font-weight="normal" letter-spacing="0.222222179" fill="#000000">
+                <tspan x="141" y="110">#D61757</tspan>
+            </text>
+            <g id="Group-2" transform="translate(281.000000, 0.000000)">
+                <g id="Group">
+                    <text id="#FD2A69" font-family="Raleway-Regular, Raleway" font-size="20" font-weight="normal" letter-spacing="0.222222179" fill="#000000">
+                        <tspan x="0" y="107">#FD2A69</tspan>
+                    </text>
+                    <rect id="Rectangle-Copy-2" fill="#FD2A69" fill-rule="nonzero" x="0" y="0" width="78" height="78" rx="39"></rect>
+                </g>
+            </g>
+            <rect id="Rectangle" fill="#FF7043" fill-rule="nonzero" x="0" y="3" width="78" height="78" rx="39"></rect>
+            <rect id="Rectangle-Copy" fill="#D61757" fill-rule="nonzero" x="141" y="3" width="78" height="78" rx="39"></rect>
+        </g>
+        <text id="AaBbCcDdEeFfGHhIiJj-Copy-2" font-family="Raleway-Light, Raleway" font-size="30" font-weight="300" letter-spacing="0.333333254" fill="#000000">
+            <tspan x="60" y="462">AaBbCcDdEeFfGHhIiJj</tspan>
+        </text>
+        <text id="Raleway" font-family="Raleway-Medium, Raleway" font-size="30" font-weight="400" letter-spacing="0.333333284" fill="#000000">
+            <tspan x="199" y="156">Raleway</tspan>
+        </text>
+        <text id="Medium" font-family="Raleway-Medium, Raleway" font-size="24" font-weight="400" letter-spacing="0.266666621" fill="#000000">
+            <tspan x="60" y="291">Medium</tspan>
+        </text>
+        <text id="Regular" font-family="Raleway-Regular, Raleway" font-size="24" font-weight="normal" letter-spacing="0.266666621" fill="#000000">
+            <tspan x="60" y="395">Regular</tspan>
+        </text>
+        <text id="Light" font-family="Raleway-Light, Raleway" font-size="24" font-weight="300" letter-spacing="0.266666621" fill="#000000">
+            <tspan x="60" y="499">Light</tspan>
+        </text>
+    </g>
+</svg>

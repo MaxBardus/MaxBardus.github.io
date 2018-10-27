@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1319.637 291.006">
+  <defs>
+    <style>
+      .cls-1, .cls-9 {
+        fill: none;
+        stroke-linecap: round;
+      }
+
+      .cls-1 {
+        stroke: rgba(91,122,163,0.5);
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+
+      .cls-2 {
+        fill: #ff7141;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        font-size: 15px;
+      }
+
+      .cls-10, .cls-3 {
+        font-family: OpenSans-Bold, Open Sans;
+        font-weight: 700;
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        fill: #4191ff;
+      }
+
+      .cls-5 {
+        fill: #943afd;
+      }
+
+      .cls-6 {
+        fill: #f55;
+      }
+
+      .cls-7 {
+        fill: #21ce99;
+      }
+
+      .cls-8 {
+        fill: #ff605a;
+      }
+
+      .cls-9 {
+        stroke: #afafaf;
+        stroke-dasharray: 5;
+      }
+
+      .cls-10 {
+        fill: #4b4b4b;
+        font-size: 22px;
+      }
+
+      .cls-11 {
+        filter: url(#Rectangle_196-5);
+      }
+
+      .cls-12 {
+        filter: url(#Rectangle_196-4);
+      }
+
+      .cls-13 {
+        filter: url(#Rectangle_196-3);
+      }
+
+      .cls-14 {
+        filter: url(#Rectangle_196-2);
+      }
+
+      .cls-15 {
+        filter: url(#Rectangle_196);
+      }
+    </style>
+    <filter id="Rectangle_196" x="0" y="91" width="270.565" height="132.423" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#ff5b3e" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_196-2" x="262.268" y="91" width="270.565" height="132.42" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-2"/>
+      <feFlood flood-color="#4191ff" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_196-3" x="524.536" y="91" width="270.565" height="132.42" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-3"/>
+      <feFlood flood-color="#943afd" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_196-4" x="786.804" y="91" width="270.565" height="132.42" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-4"/>
+      <feFlood flood-color="#21ce99" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_196-5" x="1049.073" y="91" width="270.565" height="132.42" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur-5"/>
+      <feFlood flood-color="#ff605a" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(-235.681 -263)">
+    <path id="Path_1" data-name="Path 1" class="cls-1" d="M935.5,566.18v95.3h524.536V573.07" transform="translate(-304.268 -131)"/>
+    <g id="btn_continue" data-name="btn continue" transform="translate(263.681 374)">
+      <g class="cls-15" transform="matrix(1, 0, 0, 1, -28, -111)">
+        <rect id="Rectangle_196-6" data-name="Rectangle 196" class="cls-2" width="210.565" height="72.423" rx="36.212" transform="translate(28 111)"/>
+      </g>
+      <text id="IDEATE_RESEARCH" data-name="IDEATE &amp; RESEARCH" class="cls-3" transform="translate(105.782 42.212)"><tspan x="-73.111" y="0">IDEATE &amp; RESEARCH</tspan></text>
+    </g>
+    <g id="btn_continue-2" data-name="btn continue" transform="translate(525.95 374)">
+      <g class="cls-14" transform="matrix(1, 0, 0, 1, -290.27, -111)">
+        <rect id="Rectangle_196-7" data-name="Rectangle 196" class="cls-4" width="210.565" height="72.42" rx="36.21" transform="translate(290.27 111)"/>
+      </g>
+      <text id="WIREFRAME" class="cls-3" transform="translate(104.782 42.631)"><tspan x="-44.416" y="0">WIREFRAME</tspan></text>
+    </g>
+    <g id="btn_continue-3" data-name="btn continue" transform="translate(788.218 374)">
+      <g class="cls-13" transform="matrix(1, 0, 0, 1, -552.54, -111)">
+        <rect id="Rectangle_196-8" data-name="Rectangle 196" class="cls-5" width="210.565" height="72.42" rx="36.21" transform="translate(552.54 111)"/>
+      </g>
+      <text id="DESIGN_UI_PROTOTYPE" data-name="DESIGN UI + PROTOTYPE" class="cls-3" transform="translate(105.782 42.18)"><tspan x="-89.493" y="0">DESIGN UI + PROTOTYPE</tspan></text>
+    </g>
+    <g id="btn_continue-4" data-name="btn continue" transform="translate(835.331 -140.006)">
+      <rect id="Rectangle_196-9" data-name="Rectangle 196" class="cls-6" width="148.338" height="48.013" rx="24.006" transform="translate(-15.655 646)"/>
+      <text id="REPEAT" class="cls-3" transform="translate(58.669 676.006)"><tspan x="-27.066" y="0">REPEAT</tspan></text>
+    </g>
+    <g id="btn_continue-5" data-name="btn continue" transform="translate(1050.486 374)">
+      <g class="cls-12" transform="matrix(1, 0, 0, 1, -814.8, -111)">
+        <rect id="Rectangle_196-10" data-name="Rectangle 196" class="cls-7" width="210.565" height="72.42" rx="36.21" transform="translate(814.8 111)"/>
+      </g>
+      <text id="TESTING" class="cls-3" transform="translate(105.782 42.377)"><tspan x="-31.042" y="0">TESTING</tspan></text>
+    </g>
+    <g id="btn_continue-6" data-name="btn continue" transform="translate(1312.754 374)">
+      <g class="cls-11" transform="matrix(1, 0, 0, 1, -1077.07, -111)">
+        <rect id="Rectangle_196-11" data-name="Rectangle 196" class="cls-8" width="210.565" height="72.42" rx="36.21" transform="translate(1077.07 111)"/>
+      </g>
+      <text id="IMPLEMENT" class="cls-3" transform="translate(105.782 42.631)"><tspan x="-44.431" y="0">IMPLEMENT</tspan></text>
+    </g>
+    <line id="Line_1" data-name="Line 1" class="cls-9" x2="35" transform="translate(482.5 410.5)"/>
+    <line id="Line_5" data-name="Line 5" class="cls-9" x2="35" transform="translate(744.5 410.5)"/>
+    <line id="Line_6" data-name="Line 6" class="cls-9" x2="35" transform="translate(1007.5 410.5)"/>
+    <line id="Line_7" data-name="Line 7" class="cls-9" x2="35" transform="translate(1269.5 410.5)"/>
+    <text id="DESIGN_PROCESS" data-name="DESIGN PROCESS" class="cls-10" transform="translate(895 287)"><tspan x="-92.02" y="0">DESIGN PROCESS</tspan></text>
+  </g>
+</svg>
