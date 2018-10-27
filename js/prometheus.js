@@ -82,7 +82,7 @@ function home() {
     })
 }
 
-function work() {
+/* function work() {
     $(".project").tilt({
         glare: !0,
         maxGlare: .4,
@@ -96,7 +96,7 @@ function work() {
         var n = $(window).scrollTop();
         0 == e && n > t && ($(".work-map svg").addClass("animate"), e = !0)
     })
-}
+} */
 
 function project() {
     $.featherlight.defaults.afterClose = function(t) {
@@ -2131,13 +2131,13 @@ var homeView = Barba.BaseView.extend({
     }
 });
 homeView.init();
-var workView = Barba.BaseView.extend({
-    namespace: "work",
+var conceptsView = Barba.BaseView.extend({
+    namespace: "concepts",
     onEnterCompleted: function() {
-        work()
+        concepts()
     }
 });
-workView.init();
+conceptsView.init();
 var projectView = Barba.BaseView.extend({
     namespace: "project",
     onEnterCompleted: function() {
@@ -2145,17 +2145,17 @@ var projectView = Barba.BaseView.extend({
     }
 });
 projectView.init();
-var contactView = Barba.BaseView.extend({
-    namespace: "contact"
+var aboutView = Barba.BaseView.extend({
+    namespace: "about"
 });
-contactView.init();
-var articleView = Barba.BaseView.extend({
+aboutView.init();
+/* var articleView = Barba.BaseView.extend({
     namespace: "article",
     onEnterCompleted: function() {
         article(), $("#disqus_thread").length && addScript("inject", "var disqus_config=function(){this.page.url=$('#disqus_thread').attr('data-url')};!function(){var t=document,e=t.createElement('script');e.src='https://ivomynttinendesign.disqus.com/embed.js',e.setAttribute('data-timestamp',+new Date),(t.head||t.body).appendChild(e)}();")
     }
-});
-articleView.init();
+}); 
+articleView.init(); */
 var faqView = Barba.BaseView.extend({
     namespace: "faq",
     onEnterCompleted: function() {
