@@ -23,9 +23,8 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/prometheus.css">
-    <!-- <link rel="stylesheet" href="css/skeleton.css"> -->
     <link rel="stylesheet" href="css/style.css">
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -75,12 +74,12 @@
     <div id="barba-wrapper">
         <div class="barba-container" data-namespace="home">
             <div class="custom-container">
-                <div class="slogan">
-                    Perfection comes in small details <br> we often don't see
+                <div class="slogan" data-aos="fade">
+                    Perfection comes in small details <br> we often do not see
                 </div>
                 <div class="row" style="margin-top: 100px;">
                     <div class="col-12 col-lg-5">
-                        <div class="project-container">
+                        <div class="project-container" data-aos="fade-right">
                             <img src="images/logos/logoshowcase.png" class="project-img" alt="Logos">
                             <a href="#">
                                 <div class="overlay concept-overlay">
@@ -90,7 +89,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-lg-7">
-                        <div class="project-container" data-aos="fade-up">
+                        <div class="project-container" data-aos="fade-left">
                             <img src="images/presentation/liairsonmockup.png" class="project-img" alt="La Liaison">
                             <a href="https://www.behance.net/gallery/68049287/La-Liairson-boutique-UI-design-concept" target="a_blank">
                                 <div class="overlay concept-overlay">
@@ -103,7 +102,7 @@
                 </div>
                 <div class="row">
                     <div class="col-12 col-lg-8">
-                        <div class="project-container">
+                        <div class="project-container" data-aos="fade-left">
                             <img src="images/presentation/dotheoppositeshowcase.png" class="project-img" alt="dotheopposite">
                             <a href="https://www.behance.net/gallery/70373439/DOTHEOPPOSITE" target="a_blank">
                                 <div class="overlay concept-overlay">
@@ -116,7 +115,7 @@
                 </div>
                 <div class="row">
                     <div class="col-12 col-lg-6">
-                        <div class="project-container">
+                        <div class="project-container" data-aos="fade-right">
                             <img src="images/presentation/vortexshowcase.png" class="project-img" alt="Vortex Lounge">
                             <a href="https://www.behance.net/gallery/63412285/Vortex" target="a_blank">
                                 <div class="overlay concept-overlay">
@@ -127,9 +126,9 @@
                         </div>
                     </div>
                     <div class="col-12 col-lg-6">
-                        <div class="project-container">
+                        <div class="project-container" data-aos="fade-up">
                             <img src="images/presentation/solarexplorer.png" class="project-img" alt="Solar Explorer">
-                            <a href="#">
+                            <a href="https://www.behance.net/gallery/71625063/Solar-Explorer-App" target="a_blank">
                                 <div class="overlay concept-overlay">
                                     <div class="project-title concept-title">Solar Explorer</div>
                                     <div class="project-category">UI Concept</div>
@@ -205,7 +204,14 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/prometheus.js"></script>
-    <script type="text/javascript" src="js/app.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init(
+        {
+        duration: 1000,
+        }
+      )
+    </script>
 
 </body>
 
