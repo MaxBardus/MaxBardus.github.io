@@ -28,7 +28,14 @@ html, body {
     font-weight: 500;
 }
 
-
+#active-link {
+    opacity: 1;
+    color: black;
+}
+#active-link-mobile {
+    opacity: 1;
+    color: white;
+}
 
 /* ========================= Layout ======================== */
 .custom-container {
