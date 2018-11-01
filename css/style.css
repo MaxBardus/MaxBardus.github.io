@@ -184,7 +184,6 @@ small {
     font-weight: 600;
     margin-bottom: 10px;
     opacity: 0.8;
- /*    color: #FF5722; */
 }
 .project-name p {
     font-size: 1.5em;
@@ -220,7 +219,6 @@ small {
 .project-introduction {
     padding-top: 5.5rem;
     padding-bottom: 4rem;
-    /* font-family: "Open Sans", sans-serif; */ 
 }
 
 .projectsum h3 {
@@ -242,19 +240,19 @@ small {
 .text-block span {
     font-size: 1.5rem;
     font-weight: 600;
-    color: #181818;
+    color: #1a1e20;
 }
 
 .text-description {
     margin-top: 1rem;
     font-size: 1.1rem;
-    letter-spacing: 0.2px;
+    letter-spacing: 1px;
 }
 .project-description {
     font-size: 1.375rem;
     font-weight: 500;
     line-height: 2rem;
-    letter-spacing: 0.1px;
+    letter-spacing: 1px;
     margin-top: 15px;
 }
 .add-info {
@@ -266,21 +264,17 @@ small {
     font-weight: 600;
     letter-spacing: 0.2px;
     font-size: 1.5rem;
-    color: #181818;
+    color: #1a1e20;
 }
 .add-p {
     font-size: 1.1rem;
     margin-top: 1rem;
-    letter-spacing: 0.2px;
+    letter-spacing: 1px;
     line-height: 1.6rem;
 }
-/* .section-header {
-    font-weight: 600;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    letter-spacing: 0.3px;
-    color: #222222;
-} */
+ .section-header {
+    color: #1a1e20;
+}
 .dp-section {
     padding-top: 4rem;
     padding-bottom: 2rem;
@@ -320,7 +314,7 @@ small {
 .research-p {
     font-size: 1.375rem;
     line-height: 2rem;
-    letter-spacing: 0.1px;
+    letter-spacing: 1px;
     margin-top: 20px;
 }
 .research-title {
@@ -333,6 +327,8 @@ small {
     font-size: 1.375rem;
     line-height: 2rem;
     letter-spacing: 0.1px;
+    letter-spacing: 1px;
+    margin-top: 7px;
 }
 
 .uf-container {
@@ -363,15 +359,17 @@ small {
     padding-top: 3rem;
     padding-bottom: 4.5rem;
 }
-/* .testing-p::before {
-    content: "\2014\2014\2014"
-} */
 .testing-p {
-    font-size: 1.2rem;
+  /*   font-size: 1.2rem;
     line-height: 2rem;
     letter-spacing: 0.1px;
     margin-top: 20px;
-    font-weight: 400;
+    font-weight: 400; */
+    font-size: 1.2rem;
+    margin-top: 20px;
+    line-height: 2rem;
+    letter-spacing: 0.1px;
+    letter-spacing: 1px;
 }
 .novotest-container {
     margin-top: 5rem;
@@ -396,6 +394,72 @@ small {
 .logo-showcase {
     width: 100%;
     height: auto;
+}
+.profile {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.profile-img {
+    width: 100%;
+    height: auto;
+}
+.profile-header {
+    margin-top: 25px;
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #1a1e20;
+}
+.profile-p {
+    margin-top: 25px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 32px;
+    letter-spacing: 1px;
+}
+.network-item {
+    margin-bottom: 30px;
+}
+.about-header {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #383838;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.network-title a{
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-top: 45px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    color: #1a1e20;
+    border-bottom: 1.5px solid #E6E9ED;
+    padding-bottom: 2px;
+}
+#network-link:hover {
+    color: #d23c32;
+}
+.network-description {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #383838;
+    letter-spacing: 1px;
+}
+.skills {
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+.skills-list {
+    padding-left: 0;
+    list-style-type: none;
+    color: #1a1e20;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.skill {
+    margin-bottom: 1.3rem;
 }
 footer {
     margin-top: 20px;
