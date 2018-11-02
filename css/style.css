@@ -215,6 +215,14 @@ small {
     background-size: cover;
     background-position: center;
 }
+.dnvbanner-img  {
+    width: 100%;
+    height: 350px;
+    background: url(../images/presentation/dnvmockup.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
 .project-introduction {
     padding-top: 5.5rem;
@@ -461,6 +469,10 @@ small {
 .skill {
     margin-bottom: 1.3rem;
 }
+.dnv-img {
+    width: 100%;
+    height: auto;
+}
 footer {
     margin-top: 20px;
 }
@@ -527,6 +539,9 @@ footer {
         height: 90vh;
     }
     .luobanner-img {
+        height: 90vh;
+    }
+    .dnvbanner-img {
         height: 90vh;
     }
     .dp-container {
