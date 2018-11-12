@@ -26,6 +26,7 @@
 html, body {
     font-family: "Articulat", sans-serif;
     font-weight: 500;
+    background-color: #FFFFFF;
 }
 
 #active-link {
@@ -52,8 +53,8 @@ html, body {
 .intro-block {
     /* color: #a4a4a4; */
     color: #9A9A9A;
-    padding-top: 80px;
-    padding-bottom: 50px;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     
 }
 .intro-title {
@@ -81,31 +82,36 @@ html, body {
 }
 
 .project-showcase {
-    background: #000000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #383838, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #383838, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #000000; 
+    /* background: -webkit-linear-gradient(to left, #383838, #000000); 
+    background: linear-gradient(to left, #383838, #000000);  */
     color: white;
-    min-height: 30vh;
     border-radius: 1px;
     opacity: 1;
 }
 
 .showcase-block {
-    display: flex;
-    flex-direction: column;
     text-align: center;
-    padding-top: 40px;
-    padding-bottom: 25px;
+}
+.pshowcase-info {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 8.5rem;
+    padding-bottom: 9rem;
 }
 small {
-    font-size: 1em;
-    opacity: 0.8;
+    font-size: 1rem;
+    opacity: 1;
+    letter-spacing: 0.4px;
     
 }
 .sproject-title {
     margin-top: 5px;
-    font-size: 3em;
-    margin-bottom: 20px;
+    font-size: 4rem;
+    /* margin-bottom: 20px; */
+    letter-spacing: 0.2px;
 }
 .rego-img {
     width: 65%;
@@ -489,28 +495,19 @@ footer {
 @media (min-width: 1024px) {
 
     .showcase-block {
-        text-align: left;
-        padding-top: 70px;
-        padding-bottom: 25px;
-        width: 85%;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        
+        text-align: center;        
     }
     .pshowcase-info {
         align-self: center;
-        margin-top: -92px;
     }
     small {
-        font-size: 1.1em;
+        font-size: 1rem;
         opacity: 0.8;
     }
     .sproject-title {
         margin-top: 0;
-        font-size: 4.2em;
-        margin-bottom: 20px;
+        font-size: 5.5rem;
+         margin-bottom: 10px;
     }
     .sproject-role {
         display: block;
