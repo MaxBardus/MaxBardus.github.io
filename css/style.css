@@ -480,6 +480,20 @@ small {
     width: 100%;
     height: auto;
 }
+.conclusion {
+    padding-top: 2rem;
+    padding-bottom: 7rem;
+    
+}
+.c-title {
+    font-size: 2rem;
+}
+.c-description{
+    margin-top: 25px;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    width: 50%;
+}
 footer {
     margin-top: 20px;
 }
